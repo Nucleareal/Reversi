@@ -1,0 +1,13 @@
+package Model.Event;
+
+import Model.Position;
+
+public class PositionableEvent
+{
+	private Position _pos;
+
+	public PositionableEvent(Position pos)
+	{
+		_pos = pos;
+	}
+}

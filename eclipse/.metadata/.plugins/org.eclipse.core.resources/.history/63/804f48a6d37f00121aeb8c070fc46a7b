@@ -1,0 +1,41 @@
+package Model;
+
+public class Position
+{
+	private int _x;
+	private int _y;
+	private Orientation _orient;
+
+	public Position(int x, int y)
+	{
+		this(x, y, Orientation.Undef);
+	}
+
+	public Position(int x, int y, Orientation orient)
+	{
+		_x = x;
+		_y = y;
+		_orient = orient;
+	}
+
+	public Position getNext()
+	{
+
+	}
+
+	public int getX()
+	{
+		return _x;
+	}
+
+	public int getY()
+	{
+		return _y;
+	}
+
+	@Override
+	public boolean equals(Position p)
+	{
+		return _x
+	}
+}

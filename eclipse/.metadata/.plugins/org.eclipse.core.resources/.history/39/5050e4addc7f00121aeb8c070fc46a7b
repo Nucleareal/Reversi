@@ -1,0 +1,6 @@
+package Model.Event;
+
+public interface IEventTrigger
+{
+
+}

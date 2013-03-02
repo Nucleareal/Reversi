@@ -1,0 +1,11 @@
+package Model.AI;
+
+import Model.Position;
+
+public class Node implements Comparable<Node>
+{
+	private Position _pos;
+	private int _value;
+
+	public Node()
+}

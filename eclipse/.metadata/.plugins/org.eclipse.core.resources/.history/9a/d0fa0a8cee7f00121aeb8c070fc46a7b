@@ -1,0 +1,9 @@
+package Controler;
+
+public class ViewToModel
+{
+	public static void OnClicked(Position pos)
+	{
+
+	}
+}

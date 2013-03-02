@@ -1,0 +1,14 @@
+package Model.AI;
+
+import Model.Position;
+import Model.ReversiBoard;
+import Model.Stone;
+
+public interface AI
+{
+	public Position getNextPosition(ReversiBoard board, Stone turn);
+
+	public Stone getTurn();
+
+	public Stone setTurn(Stone stone);
+}

@@ -1,0 +1,9 @@
+package Model.Character;
+
+public abstract class CharaBase implements ICharacter
+{
+	public CharaBase()
+	{
+		CharacterList.register(this);
+	}
+}

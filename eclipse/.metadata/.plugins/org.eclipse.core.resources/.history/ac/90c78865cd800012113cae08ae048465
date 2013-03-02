@@ -1,0 +1,30 @@
+package Controler;
+
+import javax.swing.JComponent;
+
+import Other.IReversiInfo;
+
+public class RedrawThread extends Thread implements IReversiInfo
+{
+	private JComponent _component;
+
+	public RedrawThread(JComponent component)
+	{
+		_component = component;
+	}
+
+	public void run()
+	{
+		while(true)
+		{
+			try
+			{
+				Thread.sleep(WAIT_MILLS);
+			}
+			catch (InterruptedException e)
+			{
+			}
+			_component.repaint();
+		}
+	}
+}

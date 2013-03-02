@@ -1,0 +1,17 @@
+package Controler;
+
+import Model.Event.Event;
+import Model.Event.ReversiEndedEvent;
+import Model.Event.Reciver.IEventReciver;
+
+public class ReversiEndedReciver implements IEventReciver
+{
+	@Override
+	public void recive(Event e)
+	{
+		if(e instanceof ReversiEndedEvent)
+		{
+			Controler.finishGame();
+		}
+	}
+}

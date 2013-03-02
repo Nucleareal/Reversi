@@ -1,0 +1,14 @@
+package Controler;
+
+import Model.Event.Event;
+import Model.Event.Reciver.IEventReciver;
+import Other.IReversiInfo;
+
+public class ButtonReciveTester implements IEventReciver
+{
+	@Override
+	public void recive(Event e)
+	{
+		System.out.println(e);
+	}
+}

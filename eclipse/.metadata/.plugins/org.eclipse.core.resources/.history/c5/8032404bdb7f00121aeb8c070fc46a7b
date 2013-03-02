@@ -1,0 +1,6 @@
+package Controler;
+
+public class EventObserver
+{
+	private static EventObserver _instance;
+}

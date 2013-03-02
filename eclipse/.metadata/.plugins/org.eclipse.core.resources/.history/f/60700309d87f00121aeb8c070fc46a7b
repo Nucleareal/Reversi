@@ -1,0 +1,8 @@
+package View;
+
+import javax.swing.JButton;
+
+public class PositionableButton extends JButton
+{
+	private static final long serialVersionUID = 1L;
+}

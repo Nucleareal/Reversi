@@ -1,0 +1,21 @@
+package Controler;
+
+import Model.Character.ICharacter;
+
+public class CharacterRetentioner
+{
+	private static ICharacter _chr;
+
+	synchronized
+	{
+		public static void setCharacter(ICharacter chara)
+		{
+			_chr = chara;
+		}
+
+		public static ICharacter getCharacter()
+		{
+			return _chr;
+		}
+	}
+}

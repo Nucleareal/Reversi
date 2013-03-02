@@ -1,0 +1,8 @@
+package View;
+
+import javax.swing.JLabel;
+
+public class StateableLabel extends JLabel
+{
+
+}

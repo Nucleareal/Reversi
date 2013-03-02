@@ -1,0 +1,23 @@
+package Controler;
+
+import javax.swing.ImageIcon;
+
+import Model.Position;
+import Model.Stone;
+
+public interface IStoneReceptorView
+{
+	public void setPositionToStone(int i, int j, ImageIcon icon);
+
+	public void stoneChanged(Stone stone);
+
+	public void finished(int[] stoneCounts);
+
+	public void onCannotStonePlaced();
+
+	public void placeToPosition(Position pos);
+
+	public void repaintAll();
+
+	public void setPositionToStone(Position pos, ImageIcon icon);
+}

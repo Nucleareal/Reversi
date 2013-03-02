@@ -1,0 +1,13 @@
+package Model.Character;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CharacterList
+{
+	private static List<ICharacter> _list;
+	static
+	{
+		_list = new ArrayList<>();
+	}
+}

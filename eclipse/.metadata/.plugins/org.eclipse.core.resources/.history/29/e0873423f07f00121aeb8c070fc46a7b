@@ -1,0 +1,11 @@
+package Controler;
+
+import Model.Position;
+import Model.Stone;
+
+public interface IStoneReceptorModel
+{
+	public Stone getStoneInPosition(int i, int j);
+
+	public boolean canPlaceOnPosition(Position pos, Stone stone);
+}

@@ -1,0 +1,14 @@
+package Controler;
+
+import Model.Position;
+
+public class ViewToModel
+{
+	public static void onClicked(IStoneReceptorModel model, IStoneReceptorView view, Position pos)
+	{
+		if(model.canPlaceOnPosition(pos))
+		{
+			model.revercing();
+		}
+	}
+}

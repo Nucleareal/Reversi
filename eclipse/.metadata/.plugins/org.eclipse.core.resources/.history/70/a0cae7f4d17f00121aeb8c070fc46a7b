@@ -1,0 +1,21 @@
+package Model;
+
+public enum Orientation
+{
+	XNeg(-1, 0),
+	YNeg(0, +1),
+	XPos(+1, 0),
+	YPos(0, +1),
+	Undefined(0, 0);
+
+	private static Orientation[] _instance = new Orientation[]
+	{ XNeg, YNeg, XPos, YPos, Undefined };
+	private int _vx;
+	private int _vy;
+
+	private Orientation(int vx, int vy)
+	{
+		_vx = vx;
+		_vy = vy;
+	}
+}

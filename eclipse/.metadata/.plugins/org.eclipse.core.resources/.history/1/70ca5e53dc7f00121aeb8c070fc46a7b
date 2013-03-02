@@ -1,0 +1,8 @@
+package Interface;
+
+import Model.Event.Event;
+
+public interface IEventReciver
+{
+	public void recive(Event e);
+}

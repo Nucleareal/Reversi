@@ -1,0 +1,26 @@
+package Controler;
+
+import Model.ITimerReciver;
+import Model.Stone;
+import Model.TimerThread;
+import Model.Event.Event;
+import Model.Event.PlayerChangedEvent;
+import Model.Event.Reciver.IEventReciver;
+import Other.IReversiInfo;
+
+public class PlayerChangeReciver implements IEventReciver, ITimerReciver, IReversiInfo
+{
+	private Event _event;
+
+	@Override
+	public void recive(Event event)
+	{
+		_event = event;
+		TimerThread timer = new TimerThread(this, WAIT_MILLS);
+	}
+
+	@Override
+	public void onTimerStopped()
+	{
+	}
+}

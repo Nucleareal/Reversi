@@ -1,0 +1,26 @@
+package Model.Character.State;
+
+public enum CharacterState
+{
+	Win,
+	Lose,
+	Probably_Win,
+	Probably_Lose,
+	Think,
+	Meet;
+
+	private static CharacterState[] _ins = new CharacterState[]
+	{
+		Meet, Think, Probably_Win, Probably_Lose, Win, Lose,
+	};
+
+	public static CharacterState indexOf(int i)
+	{
+		return _ins[i];
+	}
+
+	public static int size()
+	{
+		return _ins.length;
+	}
+}

@@ -1,0 +1,11 @@
+package Other;
+
+public interface IReversiInfo
+{
+	String Version = "0.0.0";
+	String Title = "NukReversi ver "+Version;
+	int WinX = 1280;
+	int WinY = 480;
+	int XSize = 8;
+	int YSize = 8;
+}

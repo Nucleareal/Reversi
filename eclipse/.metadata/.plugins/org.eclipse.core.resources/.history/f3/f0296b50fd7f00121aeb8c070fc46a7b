@@ -1,0 +1,5 @@
+package Model.Event;
+
+public class PlayerChangedEvent extends Event {
+
+}

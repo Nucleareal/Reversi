@@ -1,0 +1,19 @@
+package Controler;
+
+import Model.Character.ICharacter;
+
+public class CharacterRetentioner
+{
+	private static ICharacter _chr;
+
+	public static void setCharacter(ICharacter chara)
+	{
+		_chr = chara;
+		ModelToView.changedCharacter();
+	}
+
+	public static ICharacter getCharacter()
+	{
+		return _chr;
+	}
+}

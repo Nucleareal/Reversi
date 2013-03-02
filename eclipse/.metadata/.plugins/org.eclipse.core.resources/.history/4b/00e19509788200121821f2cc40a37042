@@ -1,0 +1,7 @@
+package Controler;
+
+import Model.Event.Event;
+
+public class MoveToNextTurnEvent extends Event
+{
+}

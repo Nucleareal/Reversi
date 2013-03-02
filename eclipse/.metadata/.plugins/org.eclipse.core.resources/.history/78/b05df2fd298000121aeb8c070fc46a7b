@@ -1,0 +1,12 @@
+package Controler;
+
+import Model.Event.Event;
+import Model.Event.Reciver.IEventReciver;
+
+public class MovedNextTurnReciver implements IEventReciver
+{
+	@Override
+	public void recive(Event e)
+	{
+	}
+}

@@ -1,0 +1,7 @@
+package Interface;
+
+
+public interface IEventReciver
+{
+	public void recive(Event e);
+}

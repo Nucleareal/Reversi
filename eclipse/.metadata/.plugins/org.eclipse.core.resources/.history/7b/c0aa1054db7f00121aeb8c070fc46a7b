@@ -1,0 +1,10 @@
+package Controler;
+
+import java.util.LinkedList;
+
+import Interface.IEventReciver;
+
+public class EventObserver
+{
+	private static LinkedList<IEventReciver> _listeners;
+}

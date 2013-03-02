@@ -1,0 +1,34 @@
+package Model.Character;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.AI.*;
+import Model.Character.State.CharacterState;
+
+public class Character_05Satori implements ICharacter
+{
+	@Override
+	public String getName()
+	{
+		return "古明地さとり";
+	}
+
+	@Override
+	public ImageIcon[] getImage(CharacterState state)
+	{
+		return ImageControler.CharaSatori_Closed;
+	}
+
+	@Override
+	public AI getAI()
+	{
+		return new AI_Level_3();
+	}
+
+	@Override
+	public String getWord(CharacterState state)
+	{
+		return null;
+	}
+}

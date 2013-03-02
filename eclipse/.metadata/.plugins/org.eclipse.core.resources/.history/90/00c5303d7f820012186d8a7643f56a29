@@ -1,0 +1,45 @@
+package Model.Character;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.AI.AI;
+import Model.AI.AI_Level_0A;
+import Model.Character.State.CharacterState;
+
+public class Character_01Kisume implements ICharacter
+{
+	@Override
+	public String getName()
+	{
+		return "キスメ";
+	}
+
+	@Override
+	public ImageIcon getImage(CharacterState state)
+	{
+		System.out.println("GetImage");
+		return ImageControler.CharaKisume[state.ordinal()];
+	}
+
+	@Override
+	public AI getAI()
+	{
+		return new AI_Level_0A();
+	}
+
+	public String getWord(CharacterState state)
+	{
+		return _words[state.ordinal()];
+	}
+
+	private static String[] _words = new String[]
+	{
+		"Meet.",
+		"Think.",
+		"Probably Win.",
+		"Probably Lose.",
+		"Win.",
+		"Lose.",
+	};
+}

@@ -1,0 +1,6 @@
+package Model.Listener;
+
+public class ButtonClickedListener
+{
+
+}

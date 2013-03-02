@@ -1,0 +1,9 @@
+package Controler;
+
+import Model.Event.Reciver.IEventReciver;
+import Other.IReversiInfo;
+
+public class ButtonReciveTester implements IEventReciver
+{
+
+}

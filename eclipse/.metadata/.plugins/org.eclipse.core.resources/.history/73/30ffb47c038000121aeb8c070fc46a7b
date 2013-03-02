@@ -1,0 +1,38 @@
+package Model;
+
+public enum Stone
+{
+	None,
+	Black,
+	White,
+	BlackAble,
+	WhiteAble;
+
+	private static Stone[] _plays = new Stone[]
+	{ Black, White };
+
+	public Stone next()
+	{
+		switch(this)
+		{
+		case Black: return White;
+		case White: return Black;
+		}
+		return None;
+	}
+
+	public int toArrayInIndex()
+	{
+		switch(this)
+		{
+		case Black: return 0;
+		case White: return 1;
+		}
+		return -1;
+	}
+
+	public static Stone[] getPlayableStones()
+	{
+		return _plays;
+	}
+}

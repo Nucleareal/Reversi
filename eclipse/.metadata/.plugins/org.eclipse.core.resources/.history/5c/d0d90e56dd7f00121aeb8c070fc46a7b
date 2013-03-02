@@ -1,0 +1,23 @@
+package Model.Listener;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import Controler.EventObserver;
+import Model.Position;
+import Model.Event.Event;
+import Model.Event.PositionableEvent;
+import Model.Event.Type;
+import View.PositionableButton;
+
+public class ButtonClickedListener implements ActionListener
+{
+	@Override
+	public void actionPerformed(ActionEvent ae)
+	{
+		PositionableButton button = (PositionableButton)e.getSource();
+		Event e;
+		e = new PositionableEvent(button.getPosition(), Type.Clicked);
+		EventObserver.observe(event);
+	}
+}

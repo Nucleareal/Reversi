@@ -1,0 +1,11 @@
+package Controler;
+
+import Model.Position;
+
+public class ViewToModel
+{
+	public static void OnClicked(IStoneReceptorModel model, IStoneReceptorView view, Position pos)
+	{
+
+	}
+}

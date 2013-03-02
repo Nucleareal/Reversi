@@ -1,0 +1,27 @@
+package Controler;
+
+import Model.Position;
+
+public class ViewToModel
+{
+	public static void onClicked(Position pos, IStoneReceptorModel model)
+	{
+		if(model.canPlaceOnPosition(pos))
+		{
+			model.place(pos);
+			model.reverse(pos);
+			model.nextPlayer();
+			Controler.setBoardToView();
+
+		}
+		else
+		{
+			Controler.cannotSetedStone();
+		}
+	}
+
+	public static void LockVictory(IStoneReceptorModel model)
+	{
+		model.lockVictory();
+	}
+}

@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="23" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="268" y="-23">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com_sysdeo_eclipse_tomcat_actionSet" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
+<coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="95" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="net.sf.jadclipse.JadclipseClassFileEditor" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1361853188247" focus="true" label="ワークスペース - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="43"/>
+<part id="44"/>
+<part id="45"/>
+<part id="46"/>
+<part id="47"/>
+<part id="48"/>
+<part id="49"/>
+<part id="50"/>
+<part id="51"/>
+<part id="52"/>
+<part id="53"/>
+<part id="54"/>
+<part id="55"/>
+<part id="56"/>
+<part id="57"/>
+<part id="58"/>
+<part id="59"/>
+<part id="60"/>
+<part id="61"/>
+<part id="62"/>
+<part id="63"/>
+<part id="64"/>
+<part id="65"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ButtonArrayableFrame.java" partName="ButtonArrayableFrame.java" path="C:/Reversi/eclipse/Reversi/src/View/ButtonArrayableFrame.java" title="ButtonArrayableFrame.java" tooltip="Reversi/src/View/ButtonArrayableFrame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/View/ButtonArrayableFrame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7169" selectionTopPixel="1012"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Position.java" partName="Position.java" path="C:/Reversi/eclipse/Reversi/src/Model/Position.java" title="Position.java" tooltip="Reversi/src/Model/Position.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Position.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1320" selectionTopPixel="863"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Orientation.java" partName="Orientation.java" path="C:/Reversi/eclipse/Reversi/src/Model/Orientation.java" title="Orientation.java" tooltip="Reversi/src/Model/Orientation.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Orientation.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1017" selectionTopPixel="521"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PositionableButton.java" partName="PositionableButton.java" path="C:/Reversi/eclipse/Reversi/src/View/PositionableButton.java" title="PositionableButton.java" tooltip="Reversi/src/View/PositionableButton.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/View/PositionableButton.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="461" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" partName="Event.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Event.java" title="Event.java" tooltip="Reversi/src/Model/Event/Event.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Event.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="111" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PositionableEvent.java" partName="PositionableEvent.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/PositionableEvent.java" title="PositionableEvent.java" tooltip="Reversi/src/Model/Event/PositionableEvent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/PositionableEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="195" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Type.java" partName="Type.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Type.java" title="Type.java" tooltip="Reversi/src/Model/Event/Type.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Type.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="65" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ButtonClickedListener.java" partName="ButtonClickedListener.java" path="C:/Reversi/eclipse/Reversi/src/Model/Listener/ButtonClickedListener.java" title="ButtonClickedListener.java" tooltip="Reversi/src/Model/Listener/ButtonClickedListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Listener/ButtonClickedListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="543" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventObserver.java" partName="EventObserver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/EventObserver.java" title="EventObserver.java" tooltip="Reversi/src/Model/Event/EventObserver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/EventObserver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="228" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IEventReciver.java" partName="IEventReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Reciver/IEventReciver.java" title="IEventReciver.java" tooltip="Reversi/src/Model/Event/Reciver/IEventReciver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Reciver/IEventReciver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="106" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Reversi/eclipse/Reversi/src/Model/Work/Main.java" title="Main.java" tooltip="Reversi/src/Model/Work/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Work/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="142" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controler.java" partName="Controler.java" path="C:/Reversi/eclipse/Reversi/src/Controler/Controler.java" title="Controler.java" tooltip="Reversi/src/Controler/Controler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/Controler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3696" selectionTopPixel="2191"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IReversiInfo.java" partName="IReversiInfo.java" path="C:/Reversi/eclipse/Reversi/src/Other/IReversiInfo.java" title="IReversiInfo.java" tooltip="Reversi/src/Other/IReversiInfo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Other/IReversiInfo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="420" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ButtonClickReciver.java" partName="ButtonClickReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Reciver/ButtonClickReciver.java" title="ButtonClickReciver.java" tooltip="Reversi/src/Model/Event/Reciver/ButtonClickReciver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Reciver/ButtonClickReciver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="369" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stone.java" partName="Stone.java" path="C:/Reversi/eclipse/Reversi/src/Model/Stone.java" title="Stone.java" tooltip="Reversi/src/Model/Stone.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Stone.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="724" selectionTopPixel="692"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReversiBoard.java" partName="ReversiBoard.java" path="C:/Reversi/eclipse/Reversi/src/Model/ReversiBoard.java" title="ReversiBoard.java" tooltip="Reversi/src/Model/ReversiBoard.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/ReversiBoard.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2068" selectionTopPixel="855"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ObjectPair.java" partName="ObjectPair.java" path="C:/Reversi/eclipse/Reversi/src/Model/Util/ObjectPair.java" title="ObjectPair.java" tooltip="Reversi/src/Model/Util/ObjectPair.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Util/ObjectPair.java"/>
+<editorState selectionHorizontalPixel="171" selectionLength="0" selectionOffset="249" selectionTopPixel="380"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ModelToView.java" partName="ModelToView.java" path="C:/Reversi/eclipse/Reversi/src/Controler/ModelToView.java" title="ModelToView.java" tooltip="Reversi/src/Controler/ModelToView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/ModelToView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="208" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageControler.java" partName="ImageControler.java" path="C:/Reversi/eclipse/Reversi/src/Model/ImageControler.java" title="ImageControler.java" tooltip="Reversi/src/Model/ImageControler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/ImageControler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2021" selectionTopPixel="464"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ViewToModel.java" partName="ViewToModel.java" path="C:/Reversi/eclipse/Reversi/src/Controler/ViewToModel.java" title="ViewToModel.java" tooltip="Reversi/src/Controler/ViewToModel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/ViewToModel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="779" selectionTopPixel="46"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IStoneReceptorModel.java" partName="IStoneReceptorModel.java" path="C:/Reversi/eclipse/Reversi/src/Controler/IStoneReceptorModel.java" title="IStoneReceptorModel.java" tooltip="Reversi/src/Controler/IStoneReceptorModel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/IStoneReceptorModel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="234" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IStoneReceptorView.java" partName="IStoneReceptorView.java" path="C:/Reversi/eclipse/Reversi/src/Controler/IStoneReceptorView.java" title="IStoneReceptorView.java" tooltip="Reversi/src/Controler/IStoneReceptorView.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/IStoneReceptorView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="417" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlayerChangedEvent.java" partName="PlayerChangedEvent.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/PlayerChangedEvent.java" title="PlayerChangedEvent.java" tooltip="Reversi/src/Model/Event/PlayerChangedEvent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/PlayerChangedEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="249" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlayerChangeReciver.java" partName="PlayerChangeReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Reciver/PlayerChangeReciver.java" title="PlayerChangeReciver.java" tooltip="Reversi/src/Model/Event/Reciver/PlayerChangeReciver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Reciver/PlayerChangeReciver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="356" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReversiEndedEvent.java" partName="ReversiEndedEvent.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/ReversiEndedEvent.java" title="ReversiEndedEvent.java" tooltip="Reversi/src/Model/Event/ReversiEndedEvent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/ReversiEndedEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="219" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReversiEndedReciver.java" partName="ReversiEndedReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Reciver/ReversiEndedReciver.java" title="ReversiEndedReciver.java" tooltip="Reversi/src/Model/Event/Reciver/ReversiEndedReciver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Reciver/ReversiEndedReciver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="353" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_1.java" partName="AI_Level_1.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_1.java" title="AI_Level_1.java" tooltip="Reversi/src/Model/AI/AI_Level_1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="360" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Helper.java" partName="Helper.java" path="C:/Reversi/eclipse/Reversi/src/Other/Helper.java" title="Helper.java" tooltip="Reversi/src/Other/Helper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Other/Helper.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="207" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Node.java" partName="Node.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/Node.java" title="Node.java" tooltip="Reversi/src/Model/AI/Node.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/Node.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="570" selectionTopPixel="27"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI.java" partName="AI.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI.java" title="AI.java" tooltip="Reversi/src/Model/AI/AI.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="217" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoveToNextTurnEvent.java" partName="MoveToNextTurnEvent.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/MoveToNextTurnEvent.java" title="MoveToNextTurnEvent.java" tooltip="Reversi/src/Model/Event/MoveToNextTurnEvent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/MoveToNextTurnEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="75" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovedNextTurnReciver.java" partName="MovedNextTurnReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Reciver/MovedNextTurnReciver.java" title="MovedNextTurnReciver.java" tooltip="Reversi/src/Model/Event/Reciver/MovedNextTurnReciver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Reciver/MovedNextTurnReciver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="163" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_0.java" partName="AI_Level_0.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_0.java" title="AI_Level_0.java" tooltip="Reversi/src/Model/AI/AI_Level_0.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_0.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="258" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerThread.java" partName="TimerThread.java" path="C:/Reversi/eclipse/Reversi/src/Model/Util/TimerThread.java" title="TimerThread.java" tooltip="Reversi/src/Model/Util/TimerThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Util/TimerThread.java"/>
+<editorState selectionHorizontalPixel="243" selectionLength="0" selectionOffset="238" selectionTopPixel="209"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ITimerReciver.java" partName="ITimerReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/ITimerReciver.java" title="ITimerReciver.java" tooltip="Reversi/src/Model/ITimerReciver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/ITimerReciver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="51" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NextTurnReciver.java" partName="NextTurnReciver.java" path="C:/Reversi/eclipse/Reversi/src/Controler/Reciver/NextTurnReciver.java" title="NextTurnReciver.java" tooltip="Reversi/src/Controler/Reciver/NextTurnReciver.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/Reciver/NextTurnReciver.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="224" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IconBridge.java" partName="IconBridge.java" path="C:/Reversi/eclipse/Reversi/src/Controler/IconBridge.java" title="IconBridge.java" tooltip="Reversi/src/Controler/IconBridge.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/IconBridge.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="255" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RedrawThread.java" partName="RedrawThread.java" path="C:/Reversi/eclipse/Reversi/src/Model/Util/RedrawThread.java" title="RedrawThread.java" tooltip="Reversi/src/Model/Util/RedrawThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Util/RedrawThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="486" selectionTopPixel="179"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_2.java" partName="AI_Level_2.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_2.java" title="AI_Level_2.java" tooltip="Reversi/src/Model/AI/AI_Level_2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="769" selectionTopPixel="228"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_3.java" partName="AI_Level_3.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_3.java" title="AI_Level_3.java" tooltip="Reversi/src/Model/AI/AI_Level_3.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_3.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="395" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NodeMyComparator.java" partName="NodeMyComparator.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/NodeMyComparator.java" title="NodeMyComparator.java" tooltip="Reversi/src/Model/AI/NodeMyComparator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/NodeMyComparator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="248" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NodeOtComparator.java" partName="NodeOtComparator.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/NodeOtComparator.java" title="NodeOtComparator.java" tooltip="Reversi/src/Model/AI/NodeOtComparator.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/NodeOtComparator.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="341" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_4.java" partName="AI_Level_4.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_4.java" title="AI_Level_4.java" tooltip="Reversi/src/Model/AI/AI_Level_4.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_4.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="822" selectionTopPixel="9"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ICharacter.java" partName="ICharacter.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/ICharacter.java" title="ICharacter.java" tooltip="Reversi/src/Model/Character/ICharacter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/ICharacter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="208" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_01Kisume.java" partName="Character_01Kisume.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_01Kisume.java" title="Character_01Kisume.java" tooltip="Reversi/src/Model/Character/Character_01Kisume.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_01Kisume.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="724" selectionTopPixel="179"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageLoader.java" partName="ImageLoader.java" path="C:/Reversi/eclipse/Reversi/src/Controler/ImageLoader.java" title="ImageLoader.java" tooltip="Reversi/src/Controler/ImageLoader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/ImageLoader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="439" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CountThread.java" partName="CountThread.java" path="C:/Reversi/eclipse/Reversi/src/Model/Util/CountThread.java" title="CountThread.java" tooltip="Reversi/src/Model/Util/CountThread.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Util/CountThread.java"/>
+<editorState selectionHorizontalPixel="144" selectionLength="0" selectionOffset="506" selectionTopPixel="513"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_7.java" partName="AI_Level_7.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_7.java" title="AI_Level_7.java" tooltip="Reversi/src/Model/AI/AI_Level_7.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_7.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1855" selectionTopPixel="0"/>
+</editor>
+<editor id="net.sf.jadclipse.JadclipseClassFileEditor" name="LinkedList.class" partName="LinkedList.class" title="LinkedList.class" tooltip="java.util.LinkedList" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Reversi/C:\/pleiades-e3.7-java-jre_20120225\/java\/7\/lib\/rt.jar&lt;java.util(LinkedList.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="47" selectionOffset="7730" selectionTopPixel="4579"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Base.java" partName="AI_Base.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Base.java" title="AI_Base.java" tooltip="Reversi/src/Model/AI/AI_Base.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Base.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="545" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_5.java" partName="AI_Level_5.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_5.java" title="AI_Level_5.java" tooltip="Reversi/src/Model/AI/AI_Level_5.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_5.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="530" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_6.java" partName="AI_Level_6.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_6.java" title="AI_Level_6.java" tooltip="Reversi/src/Model/AI/AI_Level_6.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_6.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="769" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_0A.java" partName="AI_Level_0A.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_0A.java" title="AI_Level_0A.java" tooltip="Reversi/src/Model/AI/AI_Level_0A.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_0A.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="259" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_02Yamame.java" partName="Character_02Yamame.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_02Yamame.java" title="Character_02Yamame.java" tooltip="Reversi/src/Model/Character/Character_02Yamame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_02Yamame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="483" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_03Parsee.java" partName="Character_03Parsee.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_03Parsee.java" title="Character_03Parsee.java" tooltip="Reversi/src/Model/Character/Character_03Parsee.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_03Parsee.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="4" selectionOffset="479" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_04Yuugi.java" partName="Character_04Yuugi.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_04Yuugi.java" title="Character_04Yuugi.java" tooltip="Reversi/src/Model/Character/Character_04Yuugi.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_04Yuugi.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="479" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_05Satori.java" partName="Character_05Satori.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_05Satori.java" title="Character_05Satori.java" tooltip="Reversi/src/Model/Character/Character_05Satori.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_05Satori.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="490" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_07Koishi.java" partName="Character_07Koishi.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_07Koishi.java" title="Character_07Koishi.java" tooltip="Reversi/src/Model/Character/Character_07Koishi.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_07Koishi.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="483" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_06Orin.java" partName="Character_06Orin.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_06Orin.java" title="Character_06Orin.java" tooltip="Reversi/src/Model/Character/Character_06Orin.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_06Orin.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="476" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_08Okuu.java" partName="Character_08Okuu.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_08Okuu.java" title="Character_08Okuu.java" tooltip="Reversi/src/Model/Character/Character_08Okuu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_08Okuu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="479" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_09Satori.java" partName="Character_09Satori.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_09Satori.java" title="Character_09Satori.java" tooltip="Reversi/src/Model/Character/Character_09Satori.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_09Satori.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="468" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterList.java" partName="CharacterList.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/CharacterList.java" title="CharacterList.java" tooltip="Reversi/src/Model/Character/CharacterList.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/CharacterList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="316" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterState.java" partName="CharacterState.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/State/CharacterState.java" title="CharacterState.java" tooltip="Reversi/src/Model/Character/State/CharacterState.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/State/CharacterState.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="128" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StateableLabel.java" partName="StateableLabel.java" path="C:/Reversi/eclipse/Reversi/src/View/StateableLabel.java" title="StateableLabel.java" tooltip="Reversi/src/View/StateableLabel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/View/StateableLabel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="675" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterRetentioner.java" partName="CharacterRetentioner.java" path="C:/Reversi/eclipse/Reversi/src/Controler/CharacterRetentioner.java" title="CharacterRetentioner.java" tooltip="Reversi/src/Controler/CharacterRetentioner.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/CharacterRetentioner.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="501" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterBase.java" partName="CharacterBase.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/CharacterBase.java" title="CharacterBase.java" tooltip="Reversi/src/Model/Character/CharacterBase.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/CharacterBase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="610" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.search.ui.views.SearchView" partName="検索">
+<viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="2" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="3" org.eclipse.search.resultpage.layout="2"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="zigen.plugin.db.ui.views.TreeView" partName="DB ツリー・ビュー">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="アウトライン">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="プロジェクト・エクスプローラー">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.AllMarkersView" partName="マーカー">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="マーカー">
+<columnWidths org.eclipse.ui.ide.allSeverityField="550" org.eclipse.ui.ide.locationField="165" org.eclipse.ui.ide.markerType="165" org.eclipse.ui.ide.pathField="220" org.eclipse.ui.ide.resourceField="165"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="スニペット">
+<viewState>
+<entry expansion="false" extent="20" maximum="100" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="プロパティー"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="データ・ソース・エクスプローラー"/>
+<view id="org.eclipse.ui.views.ProblemView" partName="問題">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="問題">
+<expanded>
+<category IMemento.internal.id="警告"/>
+<category IMemento.internal.id="エラー"/>
+<category IMemento.internal.id="警告 (1 項目)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="165" org.eclipse.ui.ide.markerType="165" org.eclipse.ui.ide.pathField="220" org.eclipse.ui.ide.resourceField="165" org.eclipse.ui.ide.severityAndDescriptionField="550"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="コンソール">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="パッケージ・エクスプローラー">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="タスク・リスト">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="宣言"/>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="サーバー"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<alwaysOnActionSet id="AnyEdit.actionSet"/>
+<alwaysOnActionSet id="org.limy.eclipse.code.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.jst.j2ee.J2eeMainActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
+<show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.AllMarkersView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<new_wizard_action id="org.eclipse.jpt.jpa.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.EarProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.jca.ui.internal.wizard.ConnectorProjectWizard"/>
+<new_wizard_action id="org.eclipse.jst.j2ee.ui.project.facet.appclient.AppClientProjectWizard"/>
+<new_wizard_action id="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newJpaProject"/>
+<new_wizard_action id="org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddSessionBeanWizard"/>
+<new_wizard_action id="org.eclipse.jst.ejb.ui.internal.wizard.AddMessageDrivenBeanWizard"/>
+<new_wizard_action id="org.eclipse.jpt.ui.wizard.newEntity"/>
+<new_wizard_action id="org.eclipse.jst.ws.creation.ui.wizard.serverwizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.jpt.ui.jpaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.AllMarkersView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.wst.server.ui.ServersView"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="プロジェクト・エクスプローラー"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.PackagesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.6996904" ratioLeft="452" ratioRight="194" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.AllMarkersView" label="マーカー"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="プロパティー"/>
+<page content="org.eclipse.wst.server.ui.ServersView" label="サーバー"/>
+<page content="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" label="データ・ソース・エクスプローラー"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="スニペット"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="コンソール"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="アウトライン"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="タスク・リスト"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com_sysdeo_eclipse_tomcat_actionSet"/>
+<alwaysOnActionSet id="AnyEdit.actionSet"/>
+<alwaysOnActionSet id="org.limy.eclipse.code.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="adt.actionSet.lint"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="de.tobject.findbugs.view.bugtreeview"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.editors.wizards.NewXmlFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.PixelPerfectPespective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.TreeViewPerspective"/>
+<perspective_action id="de.tobject.findbugs.FindBugsPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<view id="zigen.plugin.db.ui.views.TreeView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="パッケージ・エクスプローラー"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.15610267" ratioLeft="298" ratioRight="1611" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7494692" ratioLeft="706" ratioRight="236" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="問題"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="宣言"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="コンソール"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="検索"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@6e18b0" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="タスク・リスト"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.5" ratioLeft="353" ratioRight="353" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6e18b0">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="アウトライン"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.5997877" ratioLeft="565" ratioRight="377" relationship="4" relative="left"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@16fa38" ratio="0.5" ratioLeft="471" ratioRight="471" relationship="4" relative="left">
+<folder activePageID="zigen.plugin.db.ui.views.TreeView" appearance="2" expanded="2">
+<page content="zigen.plugin.db.ui.views.TreeView" label="DB ツリー・ビュー"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/Controler.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_0.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/ReversiBoard.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/View/ButtonArrayableFrame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/ModelToView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Stone.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/ViewToModel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/CharacterList.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_0A.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_7.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_6.java"/>
+</editors>
+<item historyLabel="ButtonArrayableFrame.java" index="3">
+<position info="not_deleted" x="7169" y="0"/>
+</item>
+<item historyLabel="ReversiBoard.java" index="2">
+<position info="not_deleted" x="10221" y="0"/>
+</item>
+<item historyLabel="ReversiBoard.java" index="2">
+<position/>
+</item>
+<item historyLabel="ReversiBoard.java" index="2">
+<position/>
+</item>
+<item historyLabel="Stone.java" index="5">
+<position info="not_deleted" x="724" y="0"/>
+</item>
+<item historyLabel="ReversiBoard.java" index="2">
+<position info="not_deleted" x="4697" y="0"/>
+</item>
+<item historyLabel="ReversiBoard.java" index="2">
+<position info="not_deleted" x="4775" y="0"/>
+</item>
+<item historyLabel="ReversiBoard.java" index="2">
+<position info="not_deleted" x="4815" y="0"/>
+</item>
+<item historyLabel="ButtonArrayableFrame.java" index="3">
+<position info="not_deleted" x="7169" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position/>
+</item>
+<item historyLabel="ReversiBoard.java" index="2">
+<position info="not_deleted" x="2068" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="5703" y="0"/>
+</item>
+<item historyLabel="ViewToModel.java" index="6">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="3940" y="0"/>
+</item>
+<item historyLabel="CharacterList.java" index="7">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="2639" y="0"/>
+</item>
+<item historyLabel="CharacterList.java" index="7">
+<position info="not_deleted" x="653" y="22"/>
+</item>
+<item historyLabel="CharacterList.java" index="7">
+<position info="not_deleted" x="200" y="0"/>
+</item>
+<item historyLabel="ModelToView.java" index="4">
+<position info="not_deleted" x="208" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="3026" y="53"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="3313" y="14"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="3542" y="0"/>
+</item>
+<item historyLabel="CharacterList.java" index="7">
+<position info="not_deleted" x="200" y="0"/>
+</item>
+<item historyLabel="ButtonArrayableFrame.java" index="3">
+<position info="not_deleted" x="7169" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="3542" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="4138" y="0"/>
+</item>
+<item historyLabel="CharacterList.java" index="7">
+<position info="not_deleted" x="316" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="5208" y="0"/>
+</item>
+<item historyLabel="AI_Level_0.java" index="1">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="ButtonArrayableFrame.java" index="3">
+<position info="not_deleted" x="7169" y="0"/>
+</item>
+<item historyLabel="Controler.java" index="0">
+<position info="not_deleted" x="3696" y="0"/>
+</item>
+<item historyLabel="AI_Level_0.java" index="1">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="AI_Level_0A.java" index="8">
+<position info="not_deleted" x="455" y="0"/>
+</item>
+<item historyLabel="AI_Level_2.java" index="9">
+<position info="not_deleted" x="2220" y="0"/>
+</item>
+<item historyLabel="AI_Level_7.java" index="10">
+<position info="not_deleted" x="1855" y="0"/>
+</item>
+<item historyLabel="AI_Level_0A.java" index="8">
+<position info="not_deleted" x="455" y="0"/>
+</item>
+<item historyLabel="AI_Level_0.java" index="1">
+<position info="not_deleted" x="258" y="0"/>
+</item>
+<item historyLabel="AI_Level_0A.java" index="8">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="AI_Level_0.java" index="1">
+<position info="not_deleted" x="258" y="0"/>
+</item>
+<item historyLabel="AI_Level_1.java" index="11">
+<position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="AI_Level_2.java" index="9">
+<position info="not_deleted" x="769" y="0"/>
+</item>
+<item historyLabel="AI_Level_3.java" index="12">
+<position info="not_deleted" x="395" y="0"/>
+</item>
+<item historyLabel="AI_Level_4.java" index="13">
+<position info="not_deleted" x="822" y="0"/>
+</item>
+<item historyLabel="AI_Level_5.java" index="14">
+<position info="not_deleted" x="3140" y="0"/>
+</item>
+<item historyLabel="AI_Level_6.java" index="15">
+<position info="not_deleted" x="769" y="0"/>
+</item>
+<item historyLabel="AI_Level_7.java" index="10">
+<position info="not_deleted" x="1855" y="0"/>
+</item>
+<item historyLabel="AI_Level_6.java" index="15">
+<position info="not_deleted" x="769" y="0"/>
+</item>
+<item active="true" historyLabel="AI_Level_5.java" index="14">
+<position info="not_deleted" x="3140" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+<trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterBase.java" tooltip="Reversi/src/Model/Character/CharacterBase.java">
+<persistable path="/Reversi/src/Model/Character/CharacterBase.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="Meet.png" tooltip="Reversi/src/img/chr/01/Meet.png">
+<persistable path="/Reversi/src/img/chr/01/Meet.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterRetentioner.java" tooltip="Reversi/src/Controler/CharacterRetentioner.java">
+<persistable path="/Reversi/src/Controler/CharacterRetentioner.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" name="ImageIcon.class" tooltip="javax.swing.ImageIcon">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Reversi/C:\/pleiades-e3.7-java-jre_20120225\/java\/7\/lib\/rt.jar&lt;javax.swing(ImageIcon.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StateableLabel.java" tooltip="Reversi/src/View/StateableLabel.java">
+<persistable path="/Reversi/src/View/StateableLabel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterState.java" tooltip="Reversi/src/Model/Character/State/CharacterState.java">
+<persistable path="/Reversi/src/Model/Character/State/CharacterState.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterList.java" tooltip="Reversi/src/Model/Character/CharacterList.java">
+<persistable path="/Reversi/src/Model/Character/CharacterList.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharaBase.java" tooltip="Reversi/src/Model/Character/CharaBase.java">
+<persistable path="/Reversi/src/Model/Character/CharaBase.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="Black.png" tooltip="Reversi/src/img/Black.png">
+<persistable path="/Reversi/src/img/Black.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_09Satori.java" tooltip="Reversi/src/Model/Character/Character_09Satori.java">
+<persistable path="/Reversi/src/Model/Character/Character_09Satori.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_08Okuu.java" tooltip="Reversi/src/Model/Character/Character_08Okuu.java">
+<persistable path="/Reversi/src/Model/Character/Character_08Okuu.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_06Orin.java" tooltip="Reversi/src/Model/Character/Character_06Orin.java">
+<persistable path="/Reversi/src/Model/Character/Character_06Orin.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_07Koishi.java" tooltip="Reversi/src/Model/Character/Character_07Koishi.java">
+<persistable path="/Reversi/src/Model/Character/Character_07Koishi.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_05Yuugi.java" tooltip="Reversi/src/Model/Character/Character_05Yuugi.java">
+<persistable path="/Reversi/src/Model/Character/Character_05Yuugi.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_04Yuugi.java" tooltip="Reversi/src/Model/Character/Character_04Yuugi.java">
+<persistable path="/Reversi/src/Model/Character/Character_04Yuugi.java"/>
+</file>
+</mruList>
+</workbench>

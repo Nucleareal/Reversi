@@ -1,0 +1,27 @@
+package Model.Character;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.AI.*;
+
+public class CharacterKisume implements ICharacter
+{
+	@Override
+	public String getName()
+	{
+		return "キスメ";
+	}
+
+	@Override
+	public ImageIcon getImage()
+	{
+		return ImageControler.CharaKisume;
+	}
+
+	@Override
+	public AI getAI()
+	{
+		return new AI_Level_0A();
+	}
+}

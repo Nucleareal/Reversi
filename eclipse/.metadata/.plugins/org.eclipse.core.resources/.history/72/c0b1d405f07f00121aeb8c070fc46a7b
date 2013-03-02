@@ -1,0 +1,8 @@
+package Controler;
+
+import Model.Stone;
+
+public interface IStoneReceptorModel
+{
+	public Stone getStoneInPosition(int i, int j);
+}

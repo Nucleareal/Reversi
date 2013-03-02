@@ -1,0 +1,16 @@
+package Model.Character.State;
+
+public enum CharacterState
+{
+	Win,
+	Lose,
+	Probably_Win,
+	Probably_Lose,
+	Think,
+	Meet;
+
+	private static CharacterState[] _ins = new CharacterState[]
+	{
+		Meet, Think, Probably_Win, Probably_Lose, Win, Lose,
+	};
+}

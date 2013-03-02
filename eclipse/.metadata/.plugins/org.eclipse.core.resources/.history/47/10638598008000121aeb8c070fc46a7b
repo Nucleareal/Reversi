@@ -1,0 +1,20 @@
+package Model;
+
+public enum Stone
+{
+	None,
+	Black,
+	White,
+	BlackAble,
+	WhiteAble;
+
+	public Stone next()
+	{
+		switch(this)
+		{
+		case Black: return White;
+		case White: return Black;
+		}
+		return None;
+	}
+}

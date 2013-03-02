@@ -1,0 +1,11 @@
+package Model.Work;
+
+import Controler.Launcher;
+
+public class Main
+{
+	public static void main(String[] args)
+	{
+		Launcher.launch();
+	}
+}

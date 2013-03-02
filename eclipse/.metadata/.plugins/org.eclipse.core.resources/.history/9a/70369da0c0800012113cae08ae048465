@@ -1,0 +1,19 @@
+package Controler;
+
+import Model.Stone;
+import Model.Event.Event;
+import Model.Event.PlayerChangedEvent;
+import Model.Event.Reciver.IEventReciver;
+
+public class PlayerChangeReciver implements IEventReciver
+{
+	@Override
+	public void recive(Event e)
+	{
+		if(e instanceof PlayerChangedEvent)
+		{
+			Stone stone = ((PlayerChangedEvent)e).getStone();
+			Controler.playerChanged(stone);
+		}
+	}
+}

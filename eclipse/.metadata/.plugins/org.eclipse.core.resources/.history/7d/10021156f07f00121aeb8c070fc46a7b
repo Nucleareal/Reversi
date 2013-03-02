@@ -1,0 +1,10 @@
+package Model;
+
+public enum Stone
+{
+	None,
+	Black,
+	White,
+	BlackAble,
+	WhiteAble;
+}

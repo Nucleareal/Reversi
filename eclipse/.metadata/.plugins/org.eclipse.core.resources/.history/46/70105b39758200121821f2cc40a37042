@@ -1,0 +1,5 @@
+package Model.Character.State;
+
+public enum CharacterState {
+
+}

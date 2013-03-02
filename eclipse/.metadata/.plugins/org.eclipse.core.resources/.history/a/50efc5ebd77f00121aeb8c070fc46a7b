@@ -1,0 +1,7 @@
+package View;
+
+import javax.swing.JButton;
+
+public class PositionableButton extends JButton {
+
+}

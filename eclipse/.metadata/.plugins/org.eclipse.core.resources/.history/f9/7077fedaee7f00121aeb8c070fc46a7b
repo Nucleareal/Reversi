@@ -1,0 +1,6 @@
+package Controler;
+
+public interface IStoneReceptorModel
+{
+
+}

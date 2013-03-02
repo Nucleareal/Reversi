@@ -1,0 +1,34 @@
+package Model.Character;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.AI.*;
+import Model.Character.State.CharacterState;
+
+public class Character_02Yamame implements ICharacter
+{
+	@Override
+	public String getName()
+	{
+		return "黒谷ヤマメ";
+	}
+
+	@Override
+	public ImageIcon[] getImage()
+	{
+		return ImageControler.CharaYamame;
+	}
+
+	@Override
+	public AI getAI()
+	{
+		return new AI_Level_0();
+	}
+
+	@Override
+	public String[] getWords(CharacterState state)
+	{
+		return null;
+	}
+}

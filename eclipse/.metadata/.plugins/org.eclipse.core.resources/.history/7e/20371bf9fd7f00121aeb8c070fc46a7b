@@ -1,0 +1,35 @@
+package Controler;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.Stone;
+import Other.IReversiInfo;
+import View.ButtonArrayableFrame;
+
+public class ModelToView implements IReversiInfo
+{
+	public static void setInfoToButtons(IStoneReceptorModel model, IStoneReceptorView view)
+	{
+		for(int i = 0; i < XSize; i++)
+		{
+			for(int j = 0; j < YSize; j++)
+			{
+				Stone stone = model.getStoneInPosition(i, j);
+				ImageIcon icon = ImageControler.Default;
+				switch(stone)
+				{
+				case Black: icon = ImageControler.StoneBlack; break;
+				case White: icon = ImageControler.StoneWhite; break;
+				case BlackAble: icon = ImageControler.StoneBlackAble; break;
+				case WhiteAble: icon = ImageControler.StoneWhiteAble; break;
+				}
+				view.setPositionToStone(i, j, icon);
+			}
+		}
+	}
+
+	public static void setInfoToTitle(Stone stone, ButtonArrayableFrame _window)
+	{
+	}
+}

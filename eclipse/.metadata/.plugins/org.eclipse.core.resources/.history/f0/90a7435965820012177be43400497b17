@@ -1,0 +1,15 @@
+package Model.AI;
+
+import Model.Position;
+import Model.ReversiBoard;
+import Model.Stone;
+
+public abstract class AI_Base implements AI
+{
+	@Override
+	public Stone getTurn() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}

@@ -1,0 +1,121 @@
+package Model.AI;
+
+import Controler.Controler;
+import Model.Position;
+import Model.ReversiBoard;
+import Model.Stone;
+import Other.IReversiInfo;
+
+public class AI_Level_1 implements IReversiInfo, AI
+{
+	private static int MAX_DEPTH = 5;
+
+	public Position getNextPosition(ReversiBoard board)
+	{
+		Controler.lockVictory();
+		Node min = new Node(null, -999, null);
+		Node max = new Node(null, +999, null);
+		Node now = new Node(null,    0, null);
+		Position pos;
+		Node node = getNextPosition(board, MAX_DEPTH, min, max, now);
+		while(node.getParent() != null && node.getParent().getParent() != null)
+			node = node.getParent();
+
+		pos = node.getPosition();
+
+		Controler.unlockVictory();
+
+		return pos;
+	}
+
+	/*
+	 * function minimax(node, depth)
+    return alphabeta(node, depth, -∞, +∞)
+
+function alphabeta(node, depth, α, β)
+    if node が終端ノード or depth = 0
+        return node の評価値
+    if node が自分のノード
+        foreach child of node
+            α = max(α, alphabeta(child, depth-1, α, β))
+            if α ≥ β
+                return β // カット
+       return α
+
+    else node が対戦者のノード
+        foreach child of node
+            β := min(β, alphabeta(child, depth-1, α, β))
+            if α ≥ β
+                return α // カット
+        return β
+	 * */
+
+	public Node getNextPosition(ReversiBoard board, int depth, Node min, Node max, Node now)
+	{
+		ReversiBoard board0 = null;
+
+		Position pos = now.getPosition();
+		if(pos.getX() % (XSize-1) == 0 && pos.getY() % (YSize-1) == 0)
+
+		if(depth == 0 || !board.getPlaceablePlayer()) return now;
+
+		for(int i = 0; i < XSize; i++)
+			for(int j = 0; j < YSize; j++)
+			{
+				Position pos = new Position(i, j);
+				board0 = board.clone();
+				if(board0.canPlaceOnPosition(pos))
+				{
+					int res0 = (depth == MAX_DEPTH ? 0 : now.getValue());
+					int res1 = board0.placeAtPast(pos);
+
+					if(board.getTurn() == Stone.White)
+					{
+						res0 += res1;
+						now = new Node(pos, res0, now);
+						min = max(min, getNextPosition(board0, depth-1, min, max, now));
+						if(min.isEBiggerThan(max))
+						{
+							return max;
+						}
+					}
+					else
+					{
+						res0 -= res1;
+						now = new Node(pos, res0, now);
+						max = min(max, getNextPosition(board0, depth-1, min, max, now));
+						if(min.isEBiggerThan(max))
+						{
+							return min;
+						}
+					}
+				}
+			}
+		if(board.getTurn() == Stone.White)
+		{
+			return min;
+		}
+		else
+		{
+			return max;
+		}
+	}
+
+	private Node min(Node a, Node b)
+	{
+		if(b.isBiggerThan(a))
+		{
+			return a;
+		}
+		return b;
+	}
+
+	private Node max(Node a, Node b)
+	{
+		if(a.isBiggerThan(b))
+		{
+			return a;
+		}
+		return b;
+	}
+}

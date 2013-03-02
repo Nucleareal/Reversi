@@ -1,0 +1,22 @@
+package Model;
+
+public class TimerThread extends Thread
+{
+	private long _mills;
+
+	public TimerThread(long mills)
+	{
+		_mills = mills;
+	}
+
+	public void run()
+	{
+		try
+		{
+			Thread.sleep(_mills);
+		}
+		catch (InterruptedException e)
+		{
+		}
+	}
+}

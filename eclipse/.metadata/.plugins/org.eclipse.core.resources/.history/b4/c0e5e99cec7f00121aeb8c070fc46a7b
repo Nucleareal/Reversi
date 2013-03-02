@@ -1,0 +1,13 @@
+package Model;
+
+import javax.swing.ImageIcon;
+
+public class ImageControler
+{
+	public static ImageIcon StoneBlack;
+	public static ImageIcon Default;
+	static
+	{
+		StoneBlack = new ImageIcon("./img/Black.png");
+	}
+}

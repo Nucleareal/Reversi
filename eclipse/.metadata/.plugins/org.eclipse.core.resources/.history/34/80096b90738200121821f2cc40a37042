@@ -1,0 +1,8 @@
+package Model.Character;
+
+import java.util.List;
+
+public class CharacterList
+{
+	private List<ICharacter> _list;
+}

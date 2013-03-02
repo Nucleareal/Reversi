@@ -1,0 +1,37 @@
+package Model.Util;
+
+import java.awt.Component;
+
+import Other.IReversiInfo;
+import View.PositionableButton;
+
+public class RedrawThread extends Thread implements IReversiInfo
+{
+	private int _cur;
+	private Component[][] _components;
+
+	public RedrawThread(Component[][] components)
+	{
+		_components = components;
+	}
+
+	public void run()
+	{
+		while(true)
+		{
+			try
+			{
+				Thread.sleep(WAIT_MILLS);
+			}
+			catch (InterruptedException e)
+			{
+			}
+			_components[_cur%XSize][_cur/XSize].repaint();
+		}
+	}
+
+	public void shutdown()
+	{
+		yield();
+	}
+}

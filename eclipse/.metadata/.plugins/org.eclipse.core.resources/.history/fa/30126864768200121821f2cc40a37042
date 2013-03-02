@@ -1,0 +1,15 @@
+package View;
+
+import javax.swing.JLabel;
+
+import Model.Character.ICharacter;
+
+public class StateableLabel extends JLabel
+{
+	private ICharacter _chara;
+
+	public StateableLabel()
+	{
+		super();
+	}
+}

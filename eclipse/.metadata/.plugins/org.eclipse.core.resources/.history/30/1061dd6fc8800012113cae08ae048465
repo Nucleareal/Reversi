@@ -1,0 +1,15 @@
+package Model;
+
+public class Node
+{
+	private Position _pos;
+	private Stone _stone;
+	
+	public Node(Position pos, Stone stone)
+	{
+		_pos = pos;
+		_stone = stone;
+	}
+	
+	public Position getPo
+}

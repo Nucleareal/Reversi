@@ -1,0 +1,19 @@
+package Other;
+
+public interface IReversiInfo
+{
+	String Version = "1.0.0";
+	String Title = "NukReversi ver "+Version;
+	String GAMESET = "Game Set!";
+	String CANNOT_PLACE = "そこは置けないです(´・ω・｀)";
+	String CANNOT_PLACE_MSG = "置けません(´・ω・｀)";
+	String VERIFY = "わかったv('ω'v)";
+	String END_BUTTON = "もうオセロやめる(´；ω；｀)";
+	int WinX = 640;
+	int WinY = 480;
+	int XSize = 8;
+	int YSize = 8;
+	int WAIT_MILLS = 1000/60;
+	int LastRead = 59;
+	int LastReadAmount = 16;
+}

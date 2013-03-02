@@ -1,0 +1,9 @@
+package Model.Character;
+
+import Model.AI.AI;
+import Model.AI.AI_Level_0A;
+
+public abstract class CharacterBase implements ICharacter
+{
+	protected AI _ai = new AI_Level_0A();
+}

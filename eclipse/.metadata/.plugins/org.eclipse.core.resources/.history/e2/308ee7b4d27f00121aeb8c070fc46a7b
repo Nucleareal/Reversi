@@ -1,0 +1,37 @@
+package Model;
+
+public enum Orientation
+{
+	XNegYNut(-1, +0),
+	XNegYNeg(-1, -1),
+	XNutYNeg(+0, -1),
+	XPosYNut(+1, +0),
+	XNutYPos(+0, +1),
+	Undefined(0, 0);
+
+	private static Orientation[] _instance = new Orientation[]
+	{ XNeg, YNeg, XPos, YPos, Undefined };
+	private int _vx;
+	private int _vy;
+
+	private Orientation(int vx, int vy)
+	{
+		_vx = vx;
+		_vy = vy;
+	}
+
+	public int getVectorX()
+	{
+		return _vx;
+	}
+
+	public int getVectorY()
+	{
+		return _vy;
+	}
+
+	public Orientation indexOf(int index)
+	{
+		return _instance[index];
+	}
+}

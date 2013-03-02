@@ -1,0 +1,11 @@
+package Controler;
+
+public class ImageLoader
+{
+	public static ImageIcon load(String path)
+	{
+		ClassLoader classLoader = this.getClass().getClassLoader();
+		URL resUrl = loader.getResource(path);
+		ImageIcon image = new ImageIcon(resUrl);
+	}
+}

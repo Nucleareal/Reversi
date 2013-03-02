@@ -1,0 +1,27 @@
+package Model.Character;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.AI.*;
+
+public class Character_08Okuu implements ICharacter
+{
+	@Override
+	public String getName()
+	{
+		return "霊烏路空";
+	}
+
+	@Override
+	public ImageIcon[] getImage()
+	{
+		return ImageControler.CharaUtsuho;
+	}
+
+	@Override
+	public AI getAI()
+	{
+		return new AI_Level_6();
+	}
+}

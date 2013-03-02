@@ -1,0 +1,24 @@
+package View;
+
+import javax.swing.JLabel;
+
+import Model.Character.ICharacter;
+
+public class StateableLabel extends JLabel
+{
+	private static final long serialVersionUID = 1L;
+	private ICharacter _chara;
+
+	public StateableLabel()
+	{
+		super();
+	}
+
+	@Deprecated
+	public StateableLabel(ICharacter chara)
+	{
+		_chara = chara;
+	}
+
+
+}

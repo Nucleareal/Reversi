@@ -1,0 +1,8 @@
+package Controler;
+
+import javax.swing.ImageIcon;
+
+public interface IStoneReceptorView
+{
+	public void setPositionToStone(int i, int j, ImageIcon icon);
+}

@@ -1,0 +1,12 @@
+package Controler;
+
+import Model.ReversiBoard;
+import View.ButtonArrayableFrame;
+
+public class ViewToModel
+{
+	public static void OnClicked(ReversiBoard board, ButtonArrayableFrame frame, Position pos)
+	{
+		if
+	}
+}

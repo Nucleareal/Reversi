@@ -1,0 +1,19 @@
+package Controler;
+
+import Model.ITimerReciver;
+
+public class CountThread extends Thread
+{
+	private ITimerReciver _reciver;
+
+	public CountThread(ITimerReciver reciver)
+	{
+		_reciver = reciver;
+	}
+
+	@Override
+	public void run()
+	{
+
+	}
+}

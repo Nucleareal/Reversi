@@ -1,0 +1,27 @@
+package Controler;
+
+import Model.ITimerReciver;
+import Model.Stone;
+import Model.Event.Event;
+import Model.Event.PlayerChangedEvent;
+import Model.Event.Reciver.IEventReciver;
+
+public class PlayerChangeReciver implements IEventReciver, ITimerReciver
+{
+	private Event e;
+
+	@Override
+	public void recive(Event e)
+	{
+		if(e instanceof PlayerChangedEvent)
+		{
+			Stone stone = ((PlayerChangedEvent)e).getStone();
+			Controler.playerChanged(stone);
+		}
+	}
+
+	@Override
+	public void onTimerStopped()
+	{
+	}
+}

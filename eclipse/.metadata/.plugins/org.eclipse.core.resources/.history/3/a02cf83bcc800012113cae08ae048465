@@ -1,0 +1,24 @@
+package Controler;
+
+import javax.swing.ImageIcon;
+
+import Model.Position;
+
+public class IconBridge extends Thread
+{
+	private IStoneReceptorView _view;
+	private Position _pos;
+	private ImageIcon _icon;
+
+	public IconBridge(Position pos, ImageIcon icon, IStoneReceptorView view)
+	{
+		_view = view;
+		_pos = pos;
+		_icon = icon;
+	}
+
+	public void run()
+	{
+		_view.setPositionToStone(_pos, _icon);
+	}
+}

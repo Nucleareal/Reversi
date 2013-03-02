@@ -1,0 +1,27 @@
+package Model.Character;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.AI.*;
+
+public class Character_05Satori implements ICharacter
+{
+	@Override
+	public String getName()
+	{
+		return "さとり";
+	}
+
+	@Override
+	public ImageIcon getImage()
+	{
+		return ImageControler.CharaSatori_Closed;
+	}
+
+	@Override
+	public AI getAI()
+	{
+		return new AI_Level_4();
+	}
+}

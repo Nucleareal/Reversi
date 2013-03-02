@@ -1,0 +1,19 @@
+package Controler;
+
+import Model.Event.Event;
+import Model.Event.PositionableEvent;
+import Model.Event.Type;
+import Model.Event.Reciver.IEventReciver;
+
+public class ButtonClickReciver implements IEventReciver
+{
+	@Override
+	public void recive(Event event)
+	{
+		if(event.getType().equals(Type.Clicked))
+		{
+			PositionableEvent posEvent = (PositionableEvent)event;
+			Controler.setClickToModel(posEvent.getPosition());
+		}
+	}
+}

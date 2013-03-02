@@ -1,0 +1,56 @@
+package Model;
+
+public enum Orientation
+{
+	XNegYNut(-1, +0),
+	XNegYNeg(-1, -1),
+	XNutYNeg(+0, -1),
+	XPosYNeg(+1, -1),
+	XPosYNut(+1, +0),
+	XPosYPos(+1, +1),
+	XNutYPos(+0, +1),
+	XNegYPos(-1, +1),
+	Undef   (+0, +0);
+
+	private static Orientation[] _instance = new Orientation[]
+	{ XNegYNut, XNegYNeg, XNutYNeg, XPosYNeg, XPosYNut, XPosYPos, XNutYPos, XNegYPos, Undef };
+	private int _vx;
+	private int _vy;
+
+	private Orientation(int vx, int vy)
+	{
+		_vx = vx;
+		_vy = vy;
+	}
+
+	public int getVectorX()
+	{
+		return _vx;
+	}
+
+	public int getVectorY()
+	{
+		return _vy;
+	}
+
+	public Orientation reverse()
+	{
+		switch(this)
+		{
+		case XNegYNut: return XPosYNut;
+		case XNegYNeg: return XPosYPos;
+		case XNutYNeg: return XNutYPos;
+		case XPosYNeg: return XNegYPos;
+		case XPosYNut: return XNegYNut;
+		case XPosYPos: return XNegYPos;
+		case XNutYPos: return XNutYPos;
+		case XNegYPos: return XPosYPos;
+		}
+		return Undef;
+	}
+
+	public Orientation indexOf(int index)
+	{
+		return _instance[index];
+	}
+}

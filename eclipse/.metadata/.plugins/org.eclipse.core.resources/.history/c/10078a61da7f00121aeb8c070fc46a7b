@@ -1,0 +1,8 @@
+package Model.Listener;
+
+import java.awt.event.ActionListener;
+
+public class ButtonClickedListener implements ActionListener
+{
+
+}

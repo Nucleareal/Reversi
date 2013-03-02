@@ -1,0 +1,54 @@
+package Controler;
+
+import javax.swing.ImageIcon;
+
+import Model.ImageControler;
+import Model.Position;
+import Model.Stone;
+import Other.IReversiInfo;
+
+public class ModelToView implements IReversiInfo
+{
+	public static void setInfoToButtons(Position pos, IStoneReceptorModel model, IStoneReceptorView view)
+	{
+		Stone stone = model.getStoneInPosition(pos.getX(), pos.getY());
+		ImageIcon icon = ImageControler.Default;
+		switch(stone)
+		{
+			case None: icon = ImageControler.Default; break;
+			case Black: icon = ImageControler.StoneBlack; break;
+			case White: icon = ImageControler.StoneWhite; break;
+			//case Satori: icon = ImageControler.StoneSatori; break;
+			case BlackAble: icon = ImageControler.StoneBlackAble; break;
+			case WhiteAble: icon = ImageControler.StoneWhiteAble; break;
+		}
+		view.setPositionToStone(pos, icon);
+	}
+
+	public static void setInfoToTitle(Stone stone, IStoneReceptorView view)
+	{
+		view.stoneChanged(stone);
+	}
+
+	public static void setEndToTitle(IStoneReceptorView view, int[] stoneCounts)
+	{
+		view.finished(stoneCounts);
+	}
+
+	public static void onCannotStonePlacing(IStoneReceptorView view)
+	{
+		view.onCannotStonePlaced();
+	}
+
+	public static void setClicked(Position pos, IStoneReceptorView view)
+	{
+		view.modelPlaceToPosition(pos);
+	}
+
+	private class IconBridge extends Thread
+	{
+		public IconBridge()
+		{
+		}
+	}
+}

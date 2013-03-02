@@ -1,0 +1,10 @@
+package Model.Character;
+
+import javax.swing.ImageIcon;
+
+public interface ICharacter
+{
+	public String getName();
+
+	public ImageIcon getImage();
+}

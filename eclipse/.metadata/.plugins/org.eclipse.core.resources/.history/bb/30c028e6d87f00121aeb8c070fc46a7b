@@ -1,0 +1,16 @@
+package Model.Event;
+
+public class Event
+{
+	private Type _type;
+
+	public Event()
+	{
+		this(Type.Unknown);
+	}
+
+	public Event(Type type)
+	{
+		_type = type;
+	}
+}

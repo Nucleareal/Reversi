@@ -1,0 +1,9 @@
+package Model.AI;
+
+import Model.Position;
+import Model.ReversiBoard;
+
+public interface AI
+{
+	public Position getNextPosition(ReversiBoard board);
+}

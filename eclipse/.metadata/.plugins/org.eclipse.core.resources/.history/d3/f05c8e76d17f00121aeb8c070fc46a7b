@@ -1,0 +1,10 @@
+package Model;
+
+public enum Orientation
+{
+	XNeg,
+	YNeg,
+	XPos,
+	YPos,
+	Undefined;
+}

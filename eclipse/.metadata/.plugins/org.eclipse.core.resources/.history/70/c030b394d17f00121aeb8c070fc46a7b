@@ -1,0 +1,14 @@
+package Model;
+
+public enum Orientation
+{
+	XNeg(-1, 0),
+	YNeg(0, +1),
+	XPos(+1, 0),
+	YPos(0, +1),
+	Undefined(0, 0);
+
+	private Orientation(int vx, int vy)
+	{
+	}
+}

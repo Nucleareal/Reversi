@@ -1,0 +1,5 @@
+package Model;
+
+public class ObjectPair<T1, T2> {
+
+}

@@ -1,0 +1,19 @@
+package Model.AI;
+
+import Model.Stone;
+
+public abstract class AI_Base implements AI
+{
+	private Stone _turn;
+
+	public AI_Base(Stone turn)
+	{
+		_turn = turn;
+	}
+
+	@Override
+	public Stone getTurn()
+	{
+		return _turn;
+	}
+}
