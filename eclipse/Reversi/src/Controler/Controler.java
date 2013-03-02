@@ -91,7 +91,7 @@ public class Controler implements IReversiInfo
 		setBoardToViewAll();
 	}
 
-	private static void nextCharacter()
+	public static void nextCharacter()
 	{
 		ICharacter chr = CharacterList.get(_Ccounter++);
 
@@ -150,18 +150,28 @@ public class Controler implements IReversiInfo
 
 	public static void finishedGame(int[] stoneCounts)
 	{
+		if(_thread != null)
+		{
+			_thread.stop();
+			_thread = null;
+		}
+
 		ModelToView.setEndToTitle(_window, stoneCounts);
 		Stone stone = _board.getWinnedColor();
-		if(!stone.equals(Retentioner_Character.getCharacter().getAI().getTurn()))
+		Stone ai_turn = Retentioner_Character.getCharacter().getAI().getTurn();
+		System.out.println(stone);
+		System.out.println(ai_turn);
+		if(!stone.equals(ai_turn))
 		{
 			Retentioner_Character.changeState(CharacterState.Lose);
+			System.out.println("Win");
 		}
 		else
 		{
 			Retentioner_Character.changeState(CharacterState.Win);
 			_Ccounter--;
+			System.out.println("Lose");
 		}
-		nextCharacter();
 	}
 
 	public static void cannotSetedStone()
