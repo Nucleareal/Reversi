@@ -11,7 +11,7 @@ import Other.IReversiInfo;
 public abstract class AI_Base implements AI, IReversiInfo
 {
 	private Stone _turn;
-	private Random _rand = new Random();
+	protected Random _rand = new Random();
 
 	public AI_Base(Stone turn)
 	{

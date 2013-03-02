@@ -8,7 +8,6 @@ public class CharacterRetentioner
 {
 	private static volatile ICharacter _chr;
 	private static volatile CharacterState _state;
-	private static volatile Stone _stone;
 
 	public static void setCharacter(ICharacter chara, CharacterState state)
 	{
@@ -31,15 +30,5 @@ public class CharacterRetentioner
 	public static CharacterState getState()
 	{
 		return _state;
-	}
-
-	public static void setStone(Stone stone)
-	{
-		_stone = stone;
-	}
-
-	public static Stone getStone()
-	{
-		return _stone;
 	}
 }

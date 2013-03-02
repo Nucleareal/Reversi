@@ -1,5 +1,7 @@
 package Model.Character;
 
+import java.util.Random;
+
 import Model.AI.AI;
 import Model.AI.AI_Level_0;
 import Model.AI.AI_Level_0A;
@@ -22,4 +24,10 @@ public abstract class CharacterBase implements ICharacter
 	protected static AI _ai5 = new AI_Level_5();
 	protected static AI _ai6 = new AI_Level_6();
 	protected static AI _ai7 = new AI_Level_7();
+	protected static Random _rand = new Random();
+
+	protected int nextInt(int n)
+	{
+		return _rand.nextInt(n);
+	}
 }

@@ -28,16 +28,17 @@ public class Character_01Kisume extends CharacterBase implements ICharacter
 
 	public String getWord(CharacterState state)
 	{
-		return _words[state.ordinal()];
+		return _words[state.ordinal()][nextInt(_words[state.ordinal()].length)];
 	}
 
-	private static String[] _words = new String[]
+	private static String[][] _words = new String[][]
 	{
-		"………よろしく……",
-		"…うーん……",
-		"Probably Win.",
-		"Probably Lose.",
-		"……あ、勝った",
-		"…………",
+		{"………よろしく", "…よろしく……", "リバーシかぁ……"},
+		{"…………", "………", "あの………", "<HTML>……久しぶり、<BR>人間が地底へ来たの", "……何故……", "…人間が地下へ……", "……妖怪に食われるよ", "……戻るなら今だよ", "……", "……悪いことは言わないから…"},
+		{"…うーん……", "………", "…………"},
+		{"…………"},
+		{"あー………", "うー………"},
+		{"……あ、勝った", "ありがとうございました……"},
+		{"…………", "ありがとうございました……"},
 	};
 }

@@ -20,7 +20,7 @@ public class AI_Level_3 extends AI_Base implements IReversiInfo, AI
 		super();
 	}
 
-	private static int MAX_DEPTH = 4;
+	private static int MAX_DEPTH = 1;
 	private static PriorityQueue<Node> _Mqueue = new PriorityQueue<>(1, new NodeMyComparator());
 	private static PriorityQueue<Node> _Oqueue = new PriorityQueue<>(1, new NodeOtComparator());
 
@@ -36,6 +36,14 @@ public class AI_Level_3 extends AI_Base implements IReversiInfo, AI
 			node = node.getParent();
 
 		pos = node.getPosition();
+
+		try
+		{
+			Thread.sleep(1000+(_rand.nextInt(1001) - 500));
+		}
+		catch(Exception e)
+		{
+		}
 
 		Controler.AILockDisable();
 

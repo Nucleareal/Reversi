@@ -11,7 +11,7 @@ public class Character_06Orin extends CharacterBase implements ICharacter
 	@Override
 	public String getName()
 	{
-		return "さとり";
+		return "お燐";
 	}
 
 	@Override
@@ -29,16 +29,17 @@ public class Character_06Orin extends CharacterBase implements ICharacter
 	@Override
 	public String getWord(CharacterState state)
 	{
-		return _words[state.ordinal()];
+		return _words[state.ordinal()][nextInt(_words[state.ordinal()].length)];
 	}
 
-	private static String[] _words = new String[]
+	private static String[][] _words = new String[][]
 	{
-		"Meet.",
-		"Think.",
-		"Probably Win.",
-		"Probably Lose.",
-		"Win.",
-		"Lose.",
+		{"Meet."},
+		{"Normal."},
+		{"Think."},
+		{"Probably Win."},
+		{"Probably Lose."},
+		{"Win."},
+		{"Lose."},
 	};
 }

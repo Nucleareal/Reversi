@@ -29,16 +29,17 @@ public class Character_02Yamame extends CharacterBase implements ICharacter
 	@Override
 	public String getWord(CharacterState state)
 	{
-		return _words[state.ordinal()];
+		return _words[state.ordinal()][nextInt(_words[state.ordinal()].length)];
 	}
 
-	private static String[] _words = new String[]
+	private static String[][] _words = new String[][]
 	{
-		"Meet.",
-		"Think.",
-		"Probably Win.",
-		"Probably Lose.",
-		"Win.",
-		"Lose.",
+		{"<HTML>へー、リバーシかぁ。<BR>私が勝ったら食っていいか？"},
+		{"Normal."},
+		{"Think."},
+		{"Probably Win."},
+		{"Probably Lose."},
+		{"Win."},
+		{"Lose."},
 	};
 }

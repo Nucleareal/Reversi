@@ -24,7 +24,7 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 			{120, -20,  20,   5,   5,  20, -20, 120},
 		};
 
-	private static int DEFAULT_MAX_DEPTH = 4;
+	private static int DEFAULT_MAX_DEPTH = 6;
 
 	public AI_Level_7(Stone stone)
 	{

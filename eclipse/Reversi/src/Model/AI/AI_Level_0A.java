@@ -8,7 +8,7 @@ import Other.IReversiInfo;
 
 public class AI_Level_0A extends AI_Base implements IReversiInfo, AI
 {
-	private static int MAX_DEPTH = 3;
+	private static int MAX_DEPTH = 4;
 
 	public AI_Level_0A(Stone stone)
 	{

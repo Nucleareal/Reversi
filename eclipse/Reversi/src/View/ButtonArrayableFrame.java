@@ -54,13 +54,13 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 		_root.removeAll();
 
 		int height = getHeight();
-		int width = getWidth();
+		//int width = getWidth();
 
 		Insets inset = new Insets(0, 0, 0, 0);
 		int bySize = height / (ySize+1);
 		int bxSize = bySize;//getWidth() / xSize;
 
-		int pan_sx = (width-bxSize*8)/2;
+		int pan_sx = 150;//(width-bxSize*8)/2;
 
 		JPanel toRoot = new JPanel(new FlowLayout(FlowLayout.CENTER, 0, 0));
 
@@ -69,6 +69,8 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 		{
 			Sides[i] = new JPanel(new BorderLayout(0, 0));
 			Sides[i].setMinimumSize(new Dimension(pan_sx, 0));
+			Sides[i].setPreferredSize(new Dimension(150, 150));
+			Sides[0].setMaximumSize(new Dimension(Short.MAX_VALUE, Short.MAX_VALUE));
 		}
 
 		_buttons = new PositionableButton[xSize][ySize];
@@ -93,7 +95,11 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 			_thread.start();
 		}
 
-		_slimg = new StateableLabel(StateableLabel.Type.Image); _slimg.setPreferredSize(new Dimension(100, 100));
+		_slimg = new StateableLabel(StateableLabel.Type.Image);
+			_slimg.setPreferredSize(new Dimension(100, 100));
+			_slimg.setSize(new Dimension(100, 100));
+			_slimg.setMaximumSize(new Dimension(100, 100));
+			_slimg.setMinimumSize(new Dimension(100, 100));
 		_slnam = new StateableLabel(StateableLabel.Type.Name);
 		_sltxt = new StateableLabel();
 

@@ -29,16 +29,17 @@ public class Character_07Koishi extends CharacterBase implements ICharacter
 	@Override
 	public String getWord(CharacterState state)
 	{
-		return _words[state.ordinal()];
+		return _words[state.ordinal()][nextInt(_words[state.ordinal()].length)];
 	}
 
-	private static String[] _words = new String[]
+	private static String[][] _words = new String[][]
 	{
-		"Meet.",
-		"Think.",
-		"Probably Win.",
-		"Probably Lose.",
-		"Win.",
-		"Lose.",
+		{"Meet."},
+		{"Normal."},
+		{"Think."},
+		{"Probably Win."},
+		{"Probably Lose."},
+		{"Win."},
+		{"Lose."},
 	};
 }

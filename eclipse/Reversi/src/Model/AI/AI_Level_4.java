@@ -32,7 +32,7 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 			{120, -20,  20,   5,   5,  20, -20, 120},
 		};
 
-	private static int DEFAULT_MAX_DEPTH = 4;
+	private static int DEFAULT_MAX_DEPTH = 1;
 	private static PriorityQueue<Node> _Mqueue = new PriorityQueue<>(1, new NodeMyComparator());
 	private static PriorityQueue<Node> _Oqueue = new PriorityQueue<>(1, new NodeOtComparator());
 
@@ -49,12 +49,21 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 
 		pos = node.getPosition();
 
-		Controler.AILockDisable();
-
 		if(pos == null)
 		{
 			pos = placeRandomly(board, getTurn());
 		}
+
+		try
+		{
+			Thread.sleep(1000+(_rand.nextInt(1001) - 500));
+		}
+		catch(Exception e)
+		{
+		}
+
+		Controler.AILockDisable();
+
 		return pos;
 	}
 

@@ -178,8 +178,6 @@ public class ReversiBoard implements IReversiInfo, IStoneReceptorModel, Cloneabl
 
 	private int[] getCounts()
 	{
-		printBoard();
-
 		int[] result = new int[2];
 		for(int i = 0; i < XSize; i++)
 		{
@@ -456,7 +454,15 @@ public class ReversiBoard implements IReversiInfo, IStoneReceptorModel, Cloneabl
 	public Stone getWinnedColor()
 	{
 		int[] counts = getCounts();
-		System.out.println("Result:"+counts[0]+"VS"+counts[1]);
 		return counts[0] > counts[1] ? Stone.Black : Stone.White;
+	}
+
+	public double getStoneRate(Stone turn)
+	{
+		int[] counts = getCounts();
+		for(int i = 0; i < counts.length; i++)
+			if(counts[i] == 0)
+				counts[i] = 1;
+		return turn == Stone.Black ? ((double)counts[0])/counts[1] : ((double)counts[1])/counts[0];
 	}
 }

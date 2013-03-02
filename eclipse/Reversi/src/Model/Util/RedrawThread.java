@@ -3,7 +3,6 @@ package Model.Util;
 import java.awt.Component;
 
 import Other.IReversiInfo;
-import View.PositionableButton;
 
 public class RedrawThread extends Thread implements IReversiInfo
 {

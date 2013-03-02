@@ -3,6 +3,7 @@ package Model.Character.State;
 public enum CharacterState
 {
 	Meet,
+	Normal,
 	Think,
 	Probably_Win,
 	Probably_Lose,
@@ -11,7 +12,7 @@ public enum CharacterState
 
 	private static CharacterState[] _ins = new CharacterState[]
 	{
-		Meet, Think, Probably_Win, Probably_Lose, Win, Lose,
+		Meet, Normal, Think, Probably_Win, Probably_Lose, Win, Lose,
 	};
 
 	public static CharacterState indexOf(int i)
