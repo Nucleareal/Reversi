@@ -8,8 +8,10 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
 import Controler.Reciver.NextTurnReciver;
-import Model.ImageControler;
+import Model.Retentioner_Character;
+import Model.Retentioner_Image;
 import Model.Position;
+import Model.Sound;
 import Model.ReversiBoard;
 import Model.Stone;
 import Model.AI.AI;
@@ -48,12 +50,13 @@ public class Controler implements IReversiInfo
 		Dimension dim = new Dimension(SplashSX, SplashSY);
 		splash.setPreferredSize(dim);
 		splash.setSize(dim);
-
-		JLabel label = new JLabel(ImageControler.Splash);
+		JLabel label = new JLabel(Retentioner_Image.Splash);
 		splash.add(label);
-
-		splash.setVisible(true);
 		splash.setLocationRelativeTo(null);
+		splash.setVisible(true);
+
+		Retentioner_Image.Load();
+		Sound.Load();
 
 		//ボタンリスナ
 		EventObserver.register(new ButtonClickReciver());
@@ -97,7 +100,7 @@ public class Controler implements IReversiInfo
 
 		if(chr != null)
 		{
-			CharacterRetentioner.setCharacter(chr, CharacterState.Meet);
+			Retentioner_Character.setCharacter(chr, CharacterState.Meet);
 
 			_window.changeCharacter();
 
@@ -149,13 +152,13 @@ public class Controler implements IReversiInfo
 	{
 		ModelToView.setEndToTitle(_window, stoneCounts);
 		Stone stone = _board.getWinnedColor();
-		if(!stone.equals(CharacterRetentioner.getCharacter().getAI().getTurn()))
+		if(!stone.equals(Retentioner_Character.getCharacter().getAI().getTurn()))
 		{
-			CharacterRetentioner.changeState(CharacterState.Lose);
+			Retentioner_Character.changeState(CharacterState.Lose);
 		}
 		else
 		{
-			CharacterRetentioner.changeState(CharacterState.Win);
+			Retentioner_Character.changeState(CharacterState.Win);
 			_Ccounter--;
 		}
 		nextCharacter();
@@ -173,7 +176,7 @@ public class Controler implements IReversiInfo
 			{
 				_isAIControling = true;
 				Stone stone = _board.getTurn();
-				Stone aiturn = CharacterRetentioner.getCharacter().getAI().getTurn();
+				Stone aiturn = Retentioner_Character.getCharacter().getAI().getTurn();
 				if(stone.equals(aiturn))
 				{
 					_Pcount = 0;
@@ -193,7 +196,7 @@ public class Controler implements IReversiInfo
 
 	public static void AILockEnable()
 	{
-		CharacterRetentioner.changeState(CharacterState.Think);
+		Retentioner_Character.changeState(CharacterState.Think);
 		_board.AILockEnable();
 	}
 
@@ -204,7 +207,7 @@ public class Controler implements IReversiInfo
 		int turn = _board.getTurnCount();
 		if(turn > MiddleDepth)
 		{
-			double rate = _board.getStoneRate(CharacterRetentioner.getCharacter().getAI().getTurn());
+			double rate = _board.getStoneRate(Retentioner_Character.getCharacter().getAI().getTurn());
 			if(rate >= 2D)
 			{
 				state = CharacterState.Probably_Win;
@@ -215,7 +218,7 @@ public class Controler implements IReversiInfo
 				state = CharacterState.Probably_Lose;
 			}
 		}
-		CharacterRetentioner.changeState(state);
+		Retentioner_Character.changeState(state);
 		_board.AILockDisable();
 	}
 
@@ -228,7 +231,7 @@ public class Controler implements IReversiInfo
 			{
 				_thread = null;
 			}
-			AI ai = CharacterRetentioner.getCharacter().getAI();
+			AI ai = Retentioner_Character.getCharacter().getAI();
 			Stone aiturn = ai.getTurn();
 			if(_board.getTurn() == aiturn)
 			{
@@ -270,10 +273,15 @@ public class Controler implements IReversiInfo
 		_isEnableGame = true;
 
 		Stone stone = _board.randomStone();
-		CharacterRetentioner.getCharacter().getAI().setTurn(stone.next());
+		Retentioner_Character.getCharacter().getAI().setTurn(stone.next());
 
 		ModelToView.showStoneDialog(_window, stone);
 		_board.initialize();
 		_board.startGame();
+	}
+
+	public static void onPlacedStone()
+	{
+		Sound.Place.play();
 	}
 }

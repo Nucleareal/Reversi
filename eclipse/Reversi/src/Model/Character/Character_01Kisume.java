@@ -2,7 +2,7 @@ package Model.Character;
 
 import javax.swing.ImageIcon;
 
-import Model.ImageControler;
+import Model.Retentioner_Image;
 import Model.AI.AI;
 import Model.Character.State.CharacterState;
 
@@ -17,7 +17,7 @@ public class Character_01Kisume extends CharacterBase implements ICharacter
 	@Override
 	public ImageIcon getImage(CharacterState state)
 	{
-		return ImageControler.CharaKisume[state.ordinal()];
+		return Retentioner_Image.CharaKisume[state.ordinal()];
 	}
 
 	@Override

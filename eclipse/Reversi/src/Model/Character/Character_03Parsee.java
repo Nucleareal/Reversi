@@ -2,7 +2,7 @@ package Model.Character;
 
 import javax.swing.ImageIcon;
 
-import Model.ImageControler;
+import Model.Retentioner_Image;
 import Model.AI.*;
 import Model.Character.State.CharacterState;
 
@@ -17,7 +17,7 @@ public class Character_03Parsee extends CharacterBase implements ICharacter
 	@Override
 	public ImageIcon getImage(CharacterState state)
 	{
-		return ImageControler.CharaParsee[state.ordinal()];
+		return Retentioner_Image.CharaParsee[state.ordinal()];
 	}
 
 	@Override

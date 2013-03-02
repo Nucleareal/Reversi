@@ -58,12 +58,12 @@ public enum Stone
 	{
 		switch(this)
 		{
-		case Black: return ImageControler.StoneBlack;
-		case White: return ImageControler.StoneWhite;
-		case BlackAble: return ImageControler.StoneBlackAble;
-		case WhiteAble: return ImageControler.StoneWhiteAble;
+		case Black: return Retentioner_Image.StoneBlack;
+		case White: return Retentioner_Image.StoneWhite;
+		case BlackAble: return Retentioner_Image.StoneBlackAble;
+		case WhiteAble: return Retentioner_Image.StoneWhiteAble;
 		}
-		return ImageControler.StoneDefault;
+		return Retentioner_Image.StoneDefault;
 	}
 
 	public static Stone[] getPlayableStones()
