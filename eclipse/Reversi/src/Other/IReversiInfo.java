@@ -26,4 +26,5 @@ public interface IReversiInfo
 	int LV3ScoreUnderLimit = 0;
 	int LV4ScoreUnderLimit = -10000;
 	int LV7ScoreUnderLimit = 0;
+	int AI_THINK_MILLS = 16000;
 }

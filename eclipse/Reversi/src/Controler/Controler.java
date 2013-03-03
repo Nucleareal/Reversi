@@ -272,18 +272,23 @@ public class Controler implements IReversiInfo
 				Stone aiturn = ai.getTurn();
 				if(_board.getTurn() == aiturn)
 				{
-					Position pos = ai.getNextPosition(_board);
-					ModelToView.setClicked(pos, _window);
-				}
-				_isAIControling = false;
+					ai.disableStopThinking();
 
-				nextTurn();
+					AIThinkThread thread = new AIThinkThread(_board, _window, ai);
+					thread.start();
+				}
 			}
 		}
 		else
 		{
 			startGame();
 		}
+	}
+
+	public static void onThinkStopped()
+	{
+		_isAIControling = false;
+		nextTurn();
 	}
 
 	public static void addPainter()

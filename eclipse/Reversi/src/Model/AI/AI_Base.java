@@ -12,6 +12,7 @@ public abstract class AI_Base implements AI, IReversiInfo
 {
 	private Stone _turn;
 	protected Random _rand = new Random();
+	protected boolean _isStopThinking = false;
 
 	public AI_Base(Stone turn)
 	{
@@ -50,5 +51,15 @@ public abstract class AI_Base implements AI, IReversiInfo
 			}
 		}
 		return (list.size() > 0 ? list.get(_rand.nextInt(list.size())) : null);
+	}
+
+	public void enableStopThinking()
+	{
+		_isStopThinking = true;
+	}
+
+	public void disableStopThinking()
+	{
+		_isStopThinking = false;
 	}
 }

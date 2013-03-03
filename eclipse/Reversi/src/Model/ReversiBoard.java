@@ -417,6 +417,46 @@ public class ReversiBoard implements IReversiInfo, IStoneReceptorModel, Cloneabl
 		}
 	}
 
+	/** @param pos 場所
+	 * @return その場所が属する辺が自分の石しかないかどうか
+	 */
+	public boolean isMyPlace(Position pos, Stone myStone)
+	{
+		//辺ではない場合
+		if(pos.isInRange(new Position(1, 1), new Position(XSize-2, YSize-2)))
+		{
+			return false;
+		}
+		boolean result = false;
+		if(pos.getX() % (XSize-1) == 0 && pos.getY() % (YSize-1) == 0)
+		{
+			//隅
+			result = true;
+		}
+		else
+		{
+			result = true;
+			//始点座標を求める
+			int SX = pos.getX();
+			int SY = pos.getY();
+			Orientation orient = Orientation.Undef;
+			if(pos.getY() % (YSize - 1) == 0)
+				{ SX = 1; orient = Orientation.XPosYNeu; }
+			if(pos.getX() % (XSize - 1) == 0)
+				{ SY = 1; orient = Orientation.XNeuYPos; }
+			Position pos0 = new Position(SX, SY, orient);
+			//実際に石を調べていく
+			do
+			{
+				if(myStone != _board[pos0.getX()][pos0.getY()])
+					result = false;
+				pos0 = pos0.next();
+			}
+			while(pos0.next().isInRange(_min, _max));
+		}
+		return result;
+	}
+
 	public int getTurnCount()
 	{
 		return _tcount;
@@ -439,11 +479,7 @@ public class ReversiBoard implements IReversiInfo, IStoneReceptorModel, Cloneabl
 	{
 		int x = (pos.getX() / 4) * (XSize - 1);
 		int y = (pos.getY() / 4) * (YSize - 1);
-		if(_board[x][y].toAble() == Stone.None)
-		{
-			return false;
-		}
-		return true;
+		return _board[x][y].toAble() != Stone.None;
 	}
 
 	public Stone randomStone()
