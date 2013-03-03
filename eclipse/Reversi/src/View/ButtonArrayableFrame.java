@@ -16,9 +16,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import Controler.CharacterRetentioner;
 import Controler.IStoneReceptorView;
 import Controler.ViewToModel;
+import Model.Retentioner_Character;
 import Model.Position;
 import Model.Stone;
 import Model.Character.State.CharacterState;
@@ -116,12 +116,12 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 
 	public void changeCharacter()
 	{
-		_slimg.setCharacter(CharacterRetentioner.getCharacter());
-		_slnam.setCharacter(CharacterRetentioner.getCharacter());
-		_sltxt.setCharacter(CharacterRetentioner.getCharacter());
-		_slimg.changeState(CharacterRetentioner.getState());
-		_slnam.changeState(CharacterRetentioner.getState());
-		_sltxt.changeState(CharacterRetentioner.getState());
+		_slimg.setCharacter(Retentioner_Character.getCharacter());
+		_slnam.setCharacter(Retentioner_Character.getCharacter());
+		_sltxt.setCharacter(Retentioner_Character.getCharacter());
+		_slimg.changeState(Retentioner_Character.getState());
+		_slnam.changeState(Retentioner_Character.getState());
+		_sltxt.changeState(Retentioner_Character.getState());
 	}
 
 	public void showInitStoneDialog(Stone type)
@@ -217,6 +217,7 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 
 		diag.getContentPane().add(panel);
 		diag.setLocationRelativeTo(null);
+		diag.setModal(false);
 		diag.setVisible(true);
 	}
 
@@ -279,7 +280,7 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 	@Override
 	public void onCharacterChanged()
 	{
-		CharacterState state = CharacterRetentioner.getState();
+		CharacterState state = Retentioner_Character.getState();
 		_slimg.changeState(state);
 		_sltxt.changeState(state);
 	}

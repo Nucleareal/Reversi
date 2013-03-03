@@ -32,15 +32,13 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 			{120, -20,  20,   5,   5,  20, -20, 120},
 		};
 
-	private static int DEFAULT_MAX_DEPTH = 1;
-	private static PriorityQueue<Node> _Mqueue = new PriorityQueue<>(1, new NodeMyComparator());
-	private static PriorityQueue<Node> _Oqueue = new PriorityQueue<>(1, new NodeOtComparator());
+	private static int DEFAULT_MAX_DEPTH = 4;
 
 	public Position getNextPosition(ReversiBoard board)
 	{
 		Controler.AILockEnable();
-		Node min = new Node(null, -999, null);
-		Node max = new Node(null, +999, null);
+		Node min = new Node(null, Integer.MIN_VALUE, null);
+		Node max = new Node(null, Integer.MAX_VALUE, null);
 		Node now = new Node(null,    0, null);
 		Position pos;
 		Node node = getNextPosition(board, DEFAULT_MAX_DEPTH, false, min, max, now, getTurn());
@@ -54,13 +52,13 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 			pos = placeRandomly(board, getTurn());
 		}
 
-		try
+		/*try
 		{
 			Thread.sleep(1000+(_rand.nextInt(1001) - 500));
 		}
 		catch(Exception e)
 		{
-		}
+		}*/
 
 		Controler.AILockDisable();
 
@@ -71,10 +69,14 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 	{
 		ReversiBoard board0 = null;
 
-		if(depth == 0 || board.getPlaceablePlayer() == 0 || now == null)
+		if(depth == 0 || board.getPlaceablePlayer() == 0 || now == null || now.getValue() < LV4ScoreUnderLimit)
 			return now;
 
 		boolean isMyTurn = board.getTurn() == turn;
+
+		PriorityQueue<Node> Mqueue = new PriorityQueue<>(1, new NodeMyComparator());
+		PriorityQueue<Node> Oqueue = new PriorityQueue<>(1, new NodeOtComparator());
+
 		int nextDepth = depth-1;
 		if(!isLastReading && board.getTurnCount() > LastRead)
 		{
@@ -91,26 +93,26 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 				{
 					int res0 = (depth == DEFAULT_MAX_DEPTH ? 0 : now.getValue());
 					int[] res1s = board0.placeAtPastAsReverse(pos);
-					int res1 = res1s[0] * res1s[1];
+					int res1 = res1s[0] * res1s[2];
 					res1 *= res1 * res1;
-					res0 += - res1 + (_val_table[i][j] * 8);
+					res0 += -res1 + (_val_table[i][j] * 8);
 					now = new Node(pos, res0, now);
 					if(isMyTurn)
 					{
-						_Mqueue.offer(now);
+						Mqueue.offer(now);
 					}
 					else
 					{
-						_Oqueue.offer(now);
+						Oqueue.offer(now);
 					}
 				}
 			}
-		if(_Mqueue.isEmpty() && _Oqueue.isEmpty())
+		if(Mqueue.isEmpty() && Oqueue.isEmpty())
 			return now;
-		while(	( isMyTurn && !_Mqueue.isEmpty()) ||
-				(!isMyTurn && !_Oqueue.isEmpty()) )
+		while(	( isMyTurn && !Mqueue.isEmpty()) ||
+				(!isMyTurn && !Oqueue.isEmpty()) )
 		{
-			Node node = board.getTurn() == turn ? _Mqueue.poll() : _Oqueue.poll() ;
+			Node node = isMyTurn ? Mqueue.poll() : Oqueue.poll() ;
 
 			if(isMyTurn)
 			{
