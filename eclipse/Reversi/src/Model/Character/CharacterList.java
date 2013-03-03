@@ -9,12 +9,12 @@ public class CharacterList
 	static
 	{
 		_list = new ArrayList<>();
-		//_list.add(new Character_01Kisume());
-		//_list.add(new Character_02Yamame());
-		//_list.add(new Character_03Parsee());
-		//_list.add(new Character_04Yuugi());
-		//_list.add(new Character_05Satori());
-		//_list.add(new Character_06Orin());
+		_list.add(new Character_01Kisume());
+		_list.add(new Character_02Yamame());
+		_list.add(new Character_03Parsee());
+		_list.add(new Character_04Yuugi());
+		_list.add(new Character_05Satori());
+		_list.add(new Character_06Orin());
 		_list.add(new Character_07Koishi());
 		_list.add(new Character_08Okuu());
 		_list.add(new Character_09Satori());
