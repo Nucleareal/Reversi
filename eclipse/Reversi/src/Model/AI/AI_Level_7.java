@@ -24,7 +24,7 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 			{120, -20,  20,   5,   5,  20, -20, 120},
 		};
 
-	private static int DEFAULT_MAX_DEPTH = 6;
+	private static int DEFAULT_MAX_DEPTH = 4;
 
 	public AI_Level_7(Stone stone)
 	{
@@ -67,7 +67,7 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 
 	public Node getNextPosition(ReversiBoard board, Node now, Node min, Node max, int depth, boolean isLastDepth)
 	{
-		if(depth < 0 || now.getValue() < LV5ScoreUnderLimit) return now;
+		if(_isStopThinking || depth < 0 || now.getValue() < LV7ScoreUnderLimit) return now;
 
 		//System.out.println("D:"+depth);
 
@@ -90,6 +90,11 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 		boolean isMyTurn = getTurn() == board.getTurn();
 
 		List<Position> placeableNodes = board.getAllPlaceablePoints();
+		if(placeableNodes.size() == 0 && board.getWinnedColor().equals(getTurn()))
+		{
+			System.out.println("Find Win route");
+			return new Node(now.getPosition(), Integer.MAX_VALUE, now);
+		}
 		List<Node> nodes = new LinkedList<>();
 		for(Position pos : placeableNodes)
 			nodes.add(evaluation(board.clone(), pos, now.getValue(), now, isMyTurn, isLastDepth));

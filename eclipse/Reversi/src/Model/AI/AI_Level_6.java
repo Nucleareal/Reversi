@@ -40,8 +40,6 @@ public class AI_Level_6 extends AI_Base implements IReversiInfo
 	{
 		Controler.AILockEnable();
 
-		System.out.println("CPU Turn!");
-
 		Node min = new Node(null, Integer.MIN_VALUE, null);
 		Node max = new Node(null, Integer.MAX_VALUE, null);
 		Node now = new Node(null,    0, null);
@@ -65,14 +63,12 @@ public class AI_Level_6 extends AI_Base implements IReversiInfo
 			pos = placeRandomly(board, getTurn());
 		}
 
-		System.out.println("CPU Posted Result As "+pos);
-
 		return pos;
 	}
 
 	public Node getNextPosition(ReversiBoard board, Node now, Node min, Node max, int depth, boolean isLastDepth)
 	{
-		if(depth < 0 || now.getValue() < LV5ScoreUnderLimit) return now;
+		if(_isStopThinking || depth < 0 || now.getValue() < LV7ScoreUnderLimit) return now;
 
 		//System.out.println("D:"+depth);
 
@@ -85,7 +81,6 @@ public class AI_Level_6 extends AI_Base implements IReversiInfo
 			else
 			if(board.getTurnCount() > LastRead)
 			{
-				System.out.println("LastRead Enabled");
 				isLastDepth = true;
 				depth = LastReadAmount;
 			}

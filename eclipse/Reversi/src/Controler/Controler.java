@@ -8,8 +8,10 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
 import Controler.Reciver.NextTurnReciver;
-import Model.ImageControler;
+import Model.Retentioner_Character;
+import Model.Retentioner_Image;
 import Model.Position;
+import Model.Sound;
 import Model.ReversiBoard;
 import Model.Stone;
 import Model.AI.AI;
@@ -48,12 +50,13 @@ public class Controler implements IReversiInfo
 		Dimension dim = new Dimension(SplashSX, SplashSY);
 		splash.setPreferredSize(dim);
 		splash.setSize(dim);
-
-		JLabel label = new JLabel(ImageControler.Splash);
+		JLabel label = new JLabel(Retentioner_Image.Splash);
 		splash.add(label);
-
-		splash.setVisible(true);
 		splash.setLocationRelativeTo(null);
+		splash.setVisible(true);
+
+		Retentioner_Image.Load();
+		Sound.Load();
 
 		//ボタンリスナ
 		EventObserver.register(new ButtonClickReciver());
@@ -88,7 +91,7 @@ public class Controler implements IReversiInfo
 		setBoardToViewAll();
 	}
 
-	private static void nextCharacter()
+	public static void nextCharacter()
 	{
 		ICharacter chr = CharacterList.get(_Ccounter++);
 
@@ -97,7 +100,7 @@ public class Controler implements IReversiInfo
 
 		if(chr != null)
 		{
-			CharacterRetentioner.setCharacter(chr, CharacterState.Meet);
+			Retentioner_Character.setCharacter(chr, CharacterState.Meet);
 
 			_window.changeCharacter();
 
@@ -147,18 +150,30 @@ public class Controler implements IReversiInfo
 
 	public static void finishedGame(int[] stoneCounts)
 	{
+		if(_thread != null)
+		{
+			try
+			{
+				_thread.stop();
+			}
+			catch(Throwable e)
+			{
+			}
+			_thread = null;
+		}
 		ModelToView.setEndToTitle(_window, stoneCounts);
 		Stone stone = _board.getWinnedColor();
-		if(!stone.equals(CharacterRetentioner.getCharacter().getAI().getTurn()))
+		Stone ai_turn = Retentioner_Character.getCharacter().getAI().getTurn();
+		if(!stone.equals(ai_turn))
 		{
-			CharacterRetentioner.changeState(CharacterState.Lose);
+			Retentioner_Character.changeState(CharacterState.Lose);
 		}
 		else
 		{
-			CharacterRetentioner.changeState(CharacterState.Win);
+			Retentioner_Character.changeState(CharacterState.Win);
 			_Ccounter--;
 		}
-		nextCharacter();
+		_isEnableGame = false;
 	}
 
 	public static void cannotSetedStone()
@@ -173,7 +188,7 @@ public class Controler implements IReversiInfo
 			{
 				_isAIControling = true;
 				Stone stone = _board.getTurn();
-				Stone aiturn = CharacterRetentioner.getCharacter().getAI().getTurn();
+				Stone aiturn = Retentioner_Character.getCharacter().getAI().getTurn();
 				if(stone.equals(aiturn))
 				{
 					_Pcount = 0;
@@ -182,7 +197,17 @@ public class Controler implements IReversiInfo
 				}
 				else
 				{
-					_thread = null;
+					if(_thread != null)
+					{
+						try
+						{
+							_thread.stop();
+						}
+						catch(Throwable e)
+						{
+						}
+						_thread = null;
+					}
 					_isAIControling = false;
 				}
 			}
@@ -193,56 +218,77 @@ public class Controler implements IReversiInfo
 
 	public static void AILockEnable()
 	{
-		CharacterRetentioner.changeState(CharacterState.Think);
-		_board.AILockEnable();
+		if(_isEnableGame)
+		{
+			Retentioner_Character.changeState(CharacterState.Think);
+			_board.AILockEnable();
+		}
 	}
 
 	public static void AILockDisable()
 	{
-		CharacterState state = CharacterState.Normal;
-
-		int turn = _board.getTurnCount();
-		if(turn > MiddleDepth)
+		if(_isEnableGame)
 		{
-			double rate = _board.getStoneRate(CharacterRetentioner.getCharacter().getAI().getTurn());
-			if(rate >= 2D)
+			CharacterState state = CharacterState.Normal;
+
+			int turn = _board.getTurnCount();
+			if(turn > MiddleDepth)
 			{
-				state = CharacterState.Probably_Win;
+				double rate = _board.getStoneRate(Retentioner_Character.getCharacter().getAI().getTurn());
+				if(rate >= 2D)
+				{
+					state = CharacterState.Probably_Win;
+				}
+				else
+				if(rate <= 0.5D)
+				{
+					state = CharacterState.Probably_Lose;
+				}
 			}
-			else
-			if(rate <= 0.5D)
-			{
-				state = CharacterState.Probably_Lose;
-			}
+			Retentioner_Character.changeState(state);
+			_board.AILockDisable();
 		}
-		CharacterRetentioner.changeState(state);
-		_board.AILockDisable();
 	}
 
 	public static synchronized void onTimerStopped()
 	{
 		if(_isEnableGame)
 		{
-			_Pcount = 0;
-			if(_thread != null)
+			if(_isAIControling)
 			{
-				_thread = null;
-			}
-			AI ai = CharacterRetentioner.getCharacter().getAI();
-			Stone aiturn = ai.getTurn();
-			if(_board.getTurn() == aiturn)
-			{
-				Position pos = ai.getNextPosition(_board);
-				ModelToView.setClicked(pos, _window);
-			}
-			_isAIControling = false;
+				_Pcount = 0;
+				if(_thread != null)
+				{
+					try
+					{
+						_thread.stop();
+					}
+					catch(Throwable e)
+					{
+					}
+					_thread = null;
+				}
+				AI ai = Retentioner_Character.getCharacter().getAI();
+				Stone aiturn = ai.getTurn();
+				if(_board.getTurn() == aiturn)
+				{
+					ai.disableStopThinking();
 
-			nextTurn();
+					AIThinkThread thread = new AIThinkThread(_board, _window, ai);
+					thread.start();
+				}
+			}
 		}
 		else
 		{
 			startGame();
 		}
+	}
+
+	public static void onThinkStopped()
+	{
+		_isAIControling = false;
+		nextTurn();
 	}
 
 	public static void addPainter()
@@ -270,10 +316,17 @@ public class Controler implements IReversiInfo
 		_isEnableGame = true;
 
 		Stone stone = _board.randomStone();
-		CharacterRetentioner.getCharacter().getAI().setTurn(stone.next());
+		Retentioner_Character.getCharacter().getAI().setTurn(stone.next());
 
 		ModelToView.showStoneDialog(_window, stone);
 		_board.initialize();
 		_board.startGame();
+
+		nextTurn();
+	}
+
+	public static void onPlacedStone()
+	{
+		Sound.Place.play();
 	}
 }

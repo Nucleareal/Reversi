@@ -2,7 +2,7 @@ package Model.Character;
 
 import javax.swing.ImageIcon;
 
-import Model.ImageControler;
+import Model.Retentioner_Image;
 import Model.AI.*;
 import Model.Character.State.CharacterState;
 
@@ -17,7 +17,7 @@ public class Character_09Satori extends CharacterBase implements ICharacter
 	@Override
 	public ImageIcon getImage(CharacterState state)
 	{
-		return ImageControler.CharaSatori_Opened[state.ordinal()];
+		return Retentioner_Image.CharaSatori_Opened[state.ordinal()];
 	}
 
 	@Override

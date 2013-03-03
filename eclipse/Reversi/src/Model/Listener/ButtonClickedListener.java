@@ -3,6 +3,7 @@ package Model.Listener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import Controler.Controler;
 import Model.Event.Event;
 import Model.Event.EventObserver;
 import Model.Event.PositionableEvent;
@@ -18,5 +19,7 @@ public class ButtonClickedListener implements ActionListener
 		Event event;
 		event = new PositionableEvent(button.getPosition(), Type.View);
 		EventObserver.observe(event);
+
+		Controler.onPlacedStone();
 	}
 }

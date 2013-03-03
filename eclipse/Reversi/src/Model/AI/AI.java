@@ -11,4 +11,8 @@ public interface AI
 	public Stone getTurn();
 
 	public void setTurn(Stone stone);
+
+	public void enableStopThinking();
+
+	public void disableStopThinking();
 }

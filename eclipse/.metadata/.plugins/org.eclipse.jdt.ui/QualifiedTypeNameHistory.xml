@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Controler.ModelToView.IconBridge"/>
-<fullyQualifiedTypeName name="javax.swing.JComponent"/>
-<fullyQualifiedTypeName name="Controler.RedrawThread"/>
-<fullyQualifiedTypeName name="java.util.PriorityQueue"/>
-<fullyQualifiedTypeName name="Other.Helper"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="java.net.URL"/>
-<fullyQualifiedTypeName name="java.awt.Graphics"/>
-<fullyQualifiedTypeName name="Model.ITimerReciver"/>
 <fullyQualifiedTypeName name="Controler.NextTurnReciver"/>
 <fullyQualifiedTypeName name="javax.swing.JFrame"/>
 <fullyQualifiedTypeName name="Controler.ViewToModel"/>
@@ -33,7 +24,6 @@
 <fullyQualifiedTypeName name="Model.Character.Character_08Okuu"/>
 <fullyQualifiedTypeName name="Model.Character.Character_09Satori"/>
 <fullyQualifiedTypeName name="Model.Character.Character_06Orin"/>
-<fullyQualifiedTypeName name="java.lang.Deprecated"/>
 <fullyQualifiedTypeName name="Model.Character.Character_01Kisume"/>
 <fullyQualifiedTypeName name="java.awt.Window.Type"/>
 <fullyQualifiedTypeName name="View.StateableLabel"/>
@@ -44,20 +34,30 @@
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
 <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
 <fullyQualifiedTypeName name="javax.swing.JLabel"/>
-<fullyQualifiedTypeName name="javax.swing.JPanel"/>
-<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="Model.Character.CharacterList"/>
 <fullyQualifiedTypeName name="Controler.Controler"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="Controler.IStoneReceptorView"/>
-<fullyQualifiedTypeName name="java.awt.Dimension"/>
-<fullyQualifiedTypeName name="Model.Character.ICharacter"/>
 <fullyQualifiedTypeName name="Model.Character.CharacterBase"/>
 <fullyQualifiedTypeName name="java.awt.Component"/>
-<fullyQualifiedTypeName name="Controler.CharacterRetentioner"/>
-<fullyQualifiedTypeName name="Model.Character.State.CharacterState"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="Model.Util.TimerThread"/>
 <fullyQualifiedTypeName name="Controler.Reciver.NextTurnReciver"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+<fullyQualifiedTypeName name="javax.swing.BoxLayout"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.awt.Dimension"/>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
+<fullyQualifiedTypeName name="Model.Character.State.CharacterState"/>
+<fullyQualifiedTypeName name="Controler.CharacterRetentioner"/>
+<fullyQualifiedTypeName name="javax.sound.sampled.AudioSystem"/>
+<fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+<fullyQualifiedTypeName name="Model.Retentioner_Image"/>
+<fullyQualifiedTypeName name="Model.Retentioner_Sound"/>
+<fullyQualifiedTypeName name="Controler.SoundLoader"/>
+<fullyQualifiedTypeName name="Model.Character.ICharacter"/>
+<fullyQualifiedTypeName name="Model.Event.Reciver.MovedNextTurnReciver"/>
+<fullyQualifiedTypeName name="Model.Event.MoveToNextTurnEvent"/>
+<fullyQualifiedTypeName name="Model.Util.TimerThread"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
 </qualifiedTypeNameHistroy>

@@ -23,5 +23,8 @@ public interface IReversiInfo
 	int LastRead = 48;
 	int LastReadAmount = 16;
 	int MiddleDepth = 36;
-	int LV5ScoreUnderLimit = 0;
+	int LV3ScoreUnderLimit = 0;
+	int LV4ScoreUnderLimit = -10000;
+	int LV7ScoreUnderLimit = 0;
+	int AI_THINK_MILLS = 16000;
 }

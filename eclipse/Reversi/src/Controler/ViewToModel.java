@@ -34,6 +34,7 @@ public class ViewToModel
 
 	public static void gameEnded()
 	{
-		//Controler.reset();
+		Controler.nextCharacter();
+		Controler.setBoardToViewAll();
 	}
 }
