@@ -67,7 +67,7 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 
 	public Node getNextPosition(ReversiBoard board, Node now, Node min, Node max, int depth, boolean isLastDepth)
 	{
-		if(depth < 0 || now.getValue() < LV5ScoreUnderLimit) return now;
+		if(depth < 0 || now.getValue() < LV7ScoreUnderLimit) return now;
 
 		//System.out.println("D:"+depth);
 

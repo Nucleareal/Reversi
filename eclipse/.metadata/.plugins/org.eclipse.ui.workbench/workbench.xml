@@ -110,9 +110,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ButtonArrayableFrame.java" partName="ButtonArrayableFrame.java" path="C:/Reversi/eclipse/Reversi/src/View/ButtonArrayableFrame.java" title="ButtonArrayableFrame.java" tooltip="Reversi/src/View/ButtonArrayableFrame.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ButtonArrayableFrame.java" partName="ButtonArrayableFrame.java" path="C:/Reversi/eclipse/Reversi/src/View/ButtonArrayableFrame.java" title="ButtonArrayableFrame.java" tooltip="Reversi/src/View/ButtonArrayableFrame.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/View/ButtonArrayableFrame.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7316" selectionTopPixel="4872"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7437" selectionTopPixel="4416"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Position.java" partName="Position.java" path="C:/Reversi/eclipse/Reversi/src/Model/Position.java" title="Position.java" tooltip="Reversi/src/Model/Position.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Position.java"/>
@@ -124,7 +124,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PositionableButton.java" partName="PositionableButton.java" path="C:/Reversi/eclipse/Reversi/src/View/PositionableButton.java" title="PositionableButton.java" tooltip="Reversi/src/View/PositionableButton.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/View/PositionableButton.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="411" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="543" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" partName="Event.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Event.java" title="Event.java" tooltip="Reversi/src/Model/Event/Event.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Event.java"/>
@@ -156,7 +156,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controler.java" partName="Controler.java" path="C:/Reversi/eclipse/Reversi/src/Controler/Controler.java" title="Controler.java" tooltip="Reversi/src/Controler/Controler.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/Controler.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5826" selectionTopPixel="4588"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5939" selectionTopPixel="4143"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IReversiInfo.java" partName="IReversiInfo.java" path="C:/Reversi/eclipse/Reversi/src/Other/IReversiInfo.java" title="IReversiInfo.java" tooltip="Reversi/src/Other/IReversiInfo.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Other/IReversiInfo.java"/>
@@ -172,7 +172,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReversiBoard.java" partName="ReversiBoard.java" path="C:/Reversi/eclipse/Reversi/src/Model/ReversiBoard.java" title="ReversiBoard.java" tooltip="Reversi/src/Model/ReversiBoard.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/ReversiBoard.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4087" selectionTopPixel="2546"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4305" selectionTopPixel="2546"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ObjectPair.java" partName="ObjectPair.java" path="C:/Reversi/eclipse/Reversi/src/Model/Util/ObjectPair.java" title="ObjectPair.java" tooltip="Reversi/src/Model/Util/ObjectPair.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Util/ObjectPair.java"/>
@@ -180,7 +180,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ModelToView.java" partName="ModelToView.java" path="C:/Reversi/eclipse/Reversi/src/Controler/ModelToView.java" title="ModelToView.java" tooltip="Reversi/src/Controler/ModelToView.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/ModelToView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="924" selectionTopPixel="84"/>
+<editorState selectionHorizontalPixel="0" selectionLength="28" selectionOffset="1007" selectionTopPixel="84"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retentioner_Image.java" partName="Retentioner_Image.java" path="C:/Reversi/eclipse/Reversi/src/Model/Retentioner_Image.java" title="Retentioner_Image.java" tooltip="Reversi/src/Model/Retentioner_Image.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Retentioner_Image.java"/>
@@ -212,7 +212,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReversiEndedReciver.java" partName="ReversiEndedReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Reciver/ReversiEndedReciver.java" title="ReversiEndedReciver.java" tooltip="Reversi/src/Model/Event/Reciver/ReversiEndedReciver.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Reciver/ReversiEndedReciver.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="266" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="355" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_1.java" partName="AI_Level_1.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_1.java" title="AI_Level_1.java" tooltip="Reversi/src/Model/AI/AI_Level_1.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_1.java"/>
@@ -236,11 +236,11 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MovedNextTurnReciver.java" partName="MovedNextTurnReciver.java" path="C:/Reversi/eclipse/Reversi/src/Model/Event/Reciver/MovedNextTurnReciver.java" title="MovedNextTurnReciver.java" tooltip="Reversi/src/Model/Event/Reciver/MovedNextTurnReciver.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Event/Reciver/MovedNextTurnReciver.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="163" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="309" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AI_Level_0.java" partName="AI_Level_0.java" path="C:/Reversi/eclipse/Reversi/src/Model/AI/AI_Level_0.java" title="AI_Level_0.java" tooltip="Reversi/src/Model/AI/AI_Level_0.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/AI/AI_Level_0.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="258" selectionTopPixel="30"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="806" selectionTopPixel="152"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerThread.java" partName="TimerThread.java" path="C:/Reversi/eclipse/Reversi/src/Model/Util/TimerThread.java" title="TimerThread.java" tooltip="Reversi/src/Model/Util/TimerThread.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Util/TimerThread.java"/>
@@ -252,7 +252,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NextTurnReciver.java" partName="NextTurnReciver.java" path="C:/Reversi/eclipse/Reversi/src/Controler/Reciver/NextTurnReciver.java" title="NextTurnReciver.java" tooltip="Reversi/src/Controler/Reciver/NextTurnReciver.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/Reciver/NextTurnReciver.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="224" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="228" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IconBridge.java" partName="IconBridge.java" path="C:/Reversi/eclipse/Reversi/src/Controler/IconBridge.java" title="IconBridge.java" tooltip="Reversi/src/Controler/IconBridge.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/IconBridge.java"/>
@@ -288,7 +288,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_01Kisume.java" partName="Character_01Kisume.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_01Kisume.java" title="Character_01Kisume.java" tooltip="Reversi/src/Model/Character/Character_01Kisume.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_01Kisume.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="436" selectionTopPixel="122"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1098" selectionTopPixel="160"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageLoader.java" partName="ImageLoader.java" path="C:/Reversi/eclipse/Reversi/src/Controler/ImageLoader.java" title="ImageLoader.java" tooltip="Reversi/src/Controler/ImageLoader.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Controler/ImageLoader.java"/>
@@ -324,11 +324,11 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_02Yamame.java" partName="Character_02Yamame.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_02Yamame.java" title="Character_02Yamame.java" tooltip="Reversi/src/Model/Character/Character_02Yamame.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_02Yamame.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="707" selectionTopPixel="120"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="496" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_03Parsee.java" partName="Character_03Parsee.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_03Parsee.java" title="Character_03Parsee.java" tooltip="Reversi/src/Model/Character/Character_03Parsee.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_03Parsee.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="726" selectionTopPixel="122"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="748" selectionTopPixel="122"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Character_04Yuugi.java" partName="Character_04Yuugi.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/Character_04Yuugi.java" title="Character_04Yuugi.java" tooltip="Reversi/src/Model/Character/Character_04Yuugi.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_04Yuugi.java"/>
@@ -354,9 +354,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/Character_09Satori.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="730" selectionTopPixel="92"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterList.java" partName="CharacterList.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/CharacterList.java" title="CharacterList.java" tooltip="Reversi/src/Model/Character/CharacterList.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterList.java" partName="CharacterList.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/CharacterList.java" title="CharacterList.java" tooltip="Reversi/src/Model/Character/CharacterList.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/CharacterList.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="675" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="200" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterState.java" partName="CharacterState.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/State/CharacterState.java" title="CharacterState.java" tooltip="Reversi/src/Model/Character/State/CharacterState.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/State/CharacterState.java"/>
@@ -364,11 +364,11 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StateableLabel.java" partName="StateableLabel.java" path="C:/Reversi/eclipse/Reversi/src/View/StateableLabel.java" title="StateableLabel.java" tooltip="Reversi/src/View/StateableLabel.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/View/StateableLabel.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="675" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="54" selectionOffset="786" selectionTopPixel="513"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retentioner_Character.java" partName="Retentioner_Character.java" path="C:/Reversi/eclipse/Reversi/src/Model/Retentioner_Character.java" title="Retentioner_Character.java" tooltip="Reversi/src/Model/Retentioner_Character.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Retentioner_Character.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="668" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="445" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CharacterBase.java" partName="CharacterBase.java" path="C:/Reversi/eclipse/Reversi/src/Model/Character/CharacterBase.java" title="CharacterBase.java" tooltip="Reversi/src/Model/Character/CharacterBase.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Reversi/src/Model/Character/CharacterBase.java"/>
@@ -390,8 +390,7 @@
 <views>
 <view id="org.eclipse.search.ui.views.SearchView" partName="検索">
 <viewState isPinned="false">
-<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="3" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
-<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="4" org.eclipse.search.resultpage.layout="2"/>
+<view IMemento.internal.id="org.eclipse.jdt.ui.JavaSearchResultPage" org.eclipse.jdt.search.resultpage.grouping="3" org.eclipse.jdt.search.resultpage.limit="1000" org.eclipse.jdt.search.resultpage.limit_enabled="TRUE" org.eclipse.jdt.search.resultpage.sorting="1" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2"/>
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 </viewState>
 </view>
@@ -430,11 +429,6 @@
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="データ・ソース・エクスプローラー"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="問題">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="問題">
-<expanded>
-<category IMemento.internal.id="警告"/>
-<category IMemento.internal.id="エラー"/>
-<category IMemento.internal.id="警告 (2 項目)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="165" org.eclipse.ui.ide.markerType="165" org.eclipse.ui.ide.pathField="220" org.eclipse.ui.ide.resourceField="165" org.eclipse.ui.ide.severityAndDescriptionField="550"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -673,8 +667,8 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <view id="zigen.plugin.db.ui.views.TreeView"/>
@@ -754,163 +748,202 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/Controler.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/ReversiBoard.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/View/ButtonArrayableFrame.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/ViewToModel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/Reciver/NextTurnReciver.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Event/PlayerChangedEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Event/Reciver/PlayerChangeReciver.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Event/ReversiEndedEvent.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Event/Reciver/ReversiEndedReciver.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Other/Helper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/Node.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Event/MoveToNextTurnEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Event/Reciver/MovedNextTurnReciver.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_0.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Util/TimerThread.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/ITimerReciver.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/Reciver/NextTurnReciver.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/IconBridge.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Util/RedrawThread.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_3.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/NodeMyComparator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/NodeOtComparator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_4.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/ICharacter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_01Kisume.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/ImageLoader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Util/CountThread.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_7.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Reversi/C:\/pleiades-e3.7-java-jre_20120225\/java\/7\/lib\/rt.jar&lt;java.util(LinkedList.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Base.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_6.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/AI/AI_Level_0A.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_03Parsee.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_04Yuugi.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_05Satori.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_07Koishi.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_06Orin.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_08Okuu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/Character_09Satori.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/CharacterList.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/State/CharacterState.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/View/StateableLabel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Retentioner_Character.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Character/CharacterBase.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="net.sf.jadclipse.JadclipseClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Reversi/C:\/pleiades-e3.7-java-jre_20120225\/java\/7\/lib\/rt.jar&lt;javax.swing(ImageIcon.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Controler/SoundLoader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Reversi/src/Model/Sound.java"/>
 </editors>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="758" y="9"/>
+<item historyLabel="PlayerChangedEvent.java" index="0">
+<position info="not_deleted" x="249" y="0"/>
 </item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="837" y="0"/>
+<item historyLabel="PlayerChangeReciver.java" index="1">
+<position info="not_deleted" x="356" y="0"/>
 </item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="837" y="0"/>
+<item historyLabel="ReversiEndedEvent.java" index="2">
+<position info="not_deleted" x="219" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="2575" y="0"/>
+<item historyLabel="ReversiEndedReciver.java" index="3">
+<position info="not_deleted" x="355" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="2596" y="0"/>
+<item historyLabel="AI_Level_1.java" index="4">
+<position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="3751" y="12"/>
+<item historyLabel="Helper.java" index="5">
+<position info="not_deleted" x="207" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="3760" y="0"/>
+<item historyLabel="Node.java" index="6">
+<position info="not_deleted" x="570" y="0"/>
 </item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="368" y="0"/>
+<item historyLabel="AI.java" index="7">
+<position info="not_deleted" x="217" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="4296" y="0"/>
+<item historyLabel="MoveToNextTurnEvent.java" index="8">
+<position info="not_deleted" x="75" y="0"/>
 </item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="630" y="0"/>
+<item historyLabel="MovedNextTurnReciver.java" index="9">
+<position info="not_deleted" x="309" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="4269" y="0"/>
+<item historyLabel="AI_Level_0.java" index="10">
+<position info="not_deleted" x="806" y="0"/>
 </item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="348" y="20"/>
+<item historyLabel="TimerThread.java" index="11">
+<position info="not_deleted" x="238" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="4269" y="0"/>
+<item historyLabel="ITimerReciver.java" index="12">
+<position info="not_deleted" x="51" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position/>
+<item historyLabel="NextTurnReciver.java" index="13">
+<position info="not_deleted" x="228" y="0"/>
 </item>
-<item historyLabel="NextTurnReciver.java" index="4">
-<position info="not_deleted" x="224" y="0"/>
+<item historyLabel="IconBridge.java" index="14">
+<position info="not_deleted" x="398" y="0"/>
 </item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="348" y="20"/>
-</item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="630" y="0"/>
-</item>
-<item historyLabel="ButtonArrayableFrame.java" index="2">
-<position info="not_deleted" x="5788" y="0"/>
-</item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="801" y="0"/>
-</item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="3761" y="0"/>
-</item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="151" y="0"/>
-</item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="1994" y="0"/>
-</item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="266" y="0"/>
-</item>
-<item historyLabel="ReversiBoard.java" index="1">
-<position info="not_deleted" x="4087" y="0"/>
-</item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="1994" y="0"/>
-</item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="4296" y="0"/>
-</item>
-<item historyLabel="NextTurnReciver.java" index="4">
-<position info="not_deleted" x="224" y="0"/>
-</item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="266" y="0"/>
-</item>
-<item historyLabel="ReversiBoard.java" index="1">
-<position info="not_deleted" x="4087" y="0"/>
-</item>
-<item historyLabel="ButtonArrayableFrame.java" index="2">
-<position info="not_deleted" x="5585" y="0"/>
-</item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="4280" y="0"/>
-</item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="801" y="0"/>
-</item>
-<item historyLabel="ButtonArrayableFrame.java" index="2">
-<position info="not_deleted" x="5585" y="0"/>
-</item>
-<item historyLabel="RedrawThread.java" index="6">
+<item historyLabel="RedrawThread.java" index="15">
 <position info="not_deleted" x="227" y="0"/>
 </item>
-<item historyLabel="ButtonArrayableFrame.java" index="2">
-<position info="not_deleted" x="2703" y="26"/>
+<item historyLabel="AI_Level_2.java" index="16">
+<position info="not_deleted" x="769" y="0"/>
 </item>
-<item historyLabel="ButtonArrayableFrame.java" index="2">
-<position info="not_deleted" x="7269" y="0"/>
+<item historyLabel="AI_Level_3.java" index="17">
+<position info="not_deleted" x="1038" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="4280" y="0"/>
+<item historyLabel="NodeMyComparator.java" index="18">
+<position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
+<item historyLabel="NodeOtComparator.java" index="19">
+<position info="not_deleted" x="341" y="0"/>
 </item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="266" y="0"/>
+<item historyLabel="AI_Level_4.java" index="20">
+<position info="not_deleted" x="1552" y="96"/>
 </item>
-<item historyLabel="ReversiBoard.java" index="1">
-<position info="not_deleted" x="4087" y="0"/>
+<item historyLabel="ICharacter.java" index="21">
+<position info="not_deleted" x="208" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="4280" y="0"/>
+<item historyLabel="Character_01Kisume.java" index="22">
+<position info="not_deleted" x="1098" y="0"/>
 </item>
-<item historyLabel="ButtonArrayableFrame.java" index="2">
-<position info="not_deleted" x="7269" y="0"/>
+<item historyLabel="ImageLoader.java" index="23">
+<position info="not_deleted" x="109" y="351"/>
 </item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
+<item historyLabel="CountThread.java" index="24">
+<position info="not_deleted" x="506" y="0"/>
 </item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="266" y="0"/>
+<item historyLabel="AI_Level_7.java" index="25">
+<position info="not_deleted" x="964" y="0"/>
 </item>
-<item historyLabel="NextTurnReciver.java" index="4">
-<position info="not_deleted" x="224" y="0"/>
+<item historyLabel="LinkedList.class" index="26">
+<position info="not_deleted" x="3" y="0"/>
 </item>
-<item historyLabel="ReversiBoard.java" index="1">
-<position info="not_deleted" x="4087" y="0"/>
+<item historyLabel="LinkedList.class" index="26">
+<position info="not_deleted" x="7730" y="47"/>
 </item>
-<item historyLabel="ViewToModel.java" index="3">
-<position info="not_deleted" x="692" y="0"/>
+<item historyLabel="AI_Base.java" index="27">
+<position info="not_deleted" x="277" y="0"/>
 </item>
-<item historyLabel="ReversiEndedReciver.java" index="5">
-<position info="not_deleted" x="266" y="0"/>
+<item historyLabel="AI_Level_5.java" index="28">
+<position info="not_deleted" x="980" y="0"/>
 </item>
-<item historyLabel="Controler.java" index="0">
-<position info="not_deleted" x="5826" y="0"/>
+<item historyLabel="AI_Level_6.java" index="29">
+<position info="not_deleted" x="771" y="0"/>
 </item>
-<item active="true" historyLabel="ButtonArrayableFrame.java" index="2">
-<position/>
+<item historyLabel="AI_Level_0A.java" index="30">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="Character_03Parsee.java" index="31">
+<position info="not_deleted" x="748" y="0"/>
+</item>
+<item historyLabel="Character_04Yuugi.java" index="32">
+<position info="not_deleted" x="722" y="0"/>
+</item>
+<item historyLabel="Character_05Satori.java" index="33">
+<position info="not_deleted" x="739" y="0"/>
+</item>
+<item historyLabel="Character_07Koishi.java" index="34">
+<position info="not_deleted" x="726" y="0"/>
+</item>
+<item historyLabel="Character_06Orin.java" index="35">
+<position info="not_deleted" x="482" y="0"/>
+</item>
+<item historyLabel="Character_08Okuu.java" index="36">
+<position info="not_deleted" x="722" y="0"/>
+</item>
+<item historyLabel="Character_09Satori.java" index="37">
+<position info="not_deleted" x="730" y="0"/>
+</item>
+<item historyLabel="CharacterList.java" index="38">
+<position info="not_deleted" x="196" y="0"/>
+</item>
+<item historyLabel="CharacterState.java" index="39">
+<position info="not_deleted" x="223" y="0"/>
+</item>
+<item historyLabel="StateableLabel.java" index="40">
+<position info="not_deleted" x="786" y="54"/>
+</item>
+<item historyLabel="Retentioner_Character.java" index="41">
+<position info="not_deleted" x="445" y="0"/>
+</item>
+<item historyLabel="CharacterBase.java" index="42">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="ImageIcon.class" index="43">
+<position info="not_deleted" x="3" y="0"/>
+</item>
+<item historyLabel="ImageIcon.class" index="43">
+<position info="not_deleted" x="6414" y="50"/>
+</item>
+<item historyLabel="SoundLoader.java" index="44">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item historyLabel="Sound.java" index="45">
+<position info="not_deleted" x="198" y="0"/>
+</item>
+<item historyLabel="Retentioner_Character.java" index="41">
+<position info="not_deleted" x="445" y="0"/>
+</item>
+<item active="true" historyLabel="CharacterList.java" index="38">
+<position info="not_deleted" x="196" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

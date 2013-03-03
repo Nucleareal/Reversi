@@ -281,13 +281,7 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 	public void onCharacterChanged()
 	{
 		CharacterState state = Retentioner_Character.getState();
-
-		//System.out.println("State Changed To:"+state);
-
-		if(state != null)
-		{
-			_slimg.changeState(state);
-			_sltxt.changeState(state);
-		}
+		_slimg.changeState(state);
+		_sltxt.changeState(state);
 	}
 }

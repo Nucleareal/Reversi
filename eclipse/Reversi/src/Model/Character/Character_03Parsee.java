@@ -34,7 +34,7 @@ public class Character_03Parsee extends CharacterBase implements ICharacter
 
 	private static String[][] _words = new String[][]
 	{
-		{"Meet."},
+		{"<HTML>セリフ書くの飽きましたので<BR>次の更新でどうにか<BR>古明地さとりまで書きます"},
 		{"Normal."},
 		{"Think."},
 		{"Probably Win."},
