@@ -23,8 +23,8 @@ public class AI_Level_0A extends AI_Base implements IReversiInfo, AI
 	public Position getNextPosition(ReversiBoard board)
 	{
 		Controler.AILockEnable();
-		Node min = new Node(null, -999, null);
-		Node max = new Node(null, +999, null);
+		Node min = new Node(null, Integer.MIN_VALUE, null);
+		Node max = new Node(null, Integer.MAX_VALUE, null);
 		Node now = new Node(null,    0, null);
 		Position pos;
 		Node node = getNextPosition(board, MAX_DEPTH, min, max, now, getTurn());

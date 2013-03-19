@@ -69,7 +69,7 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 	{
 		ReversiBoard board0 = null;
 
-		if(depth == 0 || board.getPlaceablePlayer() == 0 || now == null || now.getValue() < LV4ScoreUnderLimit)
+		if(_isStopThinking || depth == 0 || board.getPlaceablePlayer() == 0 || now == null || now.getValue() < LV4ScoreUnderLimit)
 			return now;
 
 		boolean isMyTurn = board.getTurn() == turn;

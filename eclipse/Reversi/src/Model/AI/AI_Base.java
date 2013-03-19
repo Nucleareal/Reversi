@@ -8,6 +8,7 @@ import Model.ReversiBoard;
 import Model.Stone;
 import Other.IReversiInfo;
 
+//AI基底クラスです。AIを制作する際にはこれを継承してください
 public abstract class AI_Base implements AI, IReversiInfo
 {
 	private Stone _turn;

@@ -5,16 +5,16 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.UIManager;
-import javax.swing.UnsupportedLookAndFeelException;
 
 import Controler.Reciver.NextTurnReciver;
+import Model.Position;
 import Model.Retentioner_Character;
 import Model.Retentioner_Image;
-import Model.Position;
-import Model.Sound;
 import Model.ReversiBoard;
+import Model.Sound;
 import Model.Stone;
 import Model.AI.AI;
+import Model.AI.AI_Level_0;
 import Model.Character.CharacterList;
 import Model.Character.ICharacter;
 import Model.Character.State.CharacterState;
@@ -38,6 +38,10 @@ public class Controler implements IReversiInfo
 	private static int _Ccounter;
 	private static volatile boolean _isAIControling;
 
+	private static boolean _isAIVSMode = false;
+	private static AI _ai1;
+	private static AI _ai2;
+
 	public static void launch()
 	{
 		JFrame splash = new JFrame();
@@ -49,6 +53,12 @@ public class Controler implements IReversiInfo
 		splash.add(label);
 		splash.setLocationRelativeTo(null);
 		splash.setVisible(true);
+
+
+		//ここでAIを指定します
+		_ai1 = new AI_Level_0();
+		_ai2 = new AI_Level_0();
+		_isAIVSMode = false; //AI同士の対戦モード
 
 		Retentioner_Image.Load();
 		Sound.Load();
@@ -117,7 +127,7 @@ public class Controler implements IReversiInfo
 		{
 			UIManager.setLookAndFeel(new WindowsLookAndFeel());
 		}
-		catch (UnsupportedLookAndFeelException e)
+		catch (Exception e)
 		{
 			e.printStackTrace();
 		}
@@ -182,7 +192,7 @@ public class Controler implements IReversiInfo
 				_isAIControling = true;
 				Stone stone = _board.getTurn();
 				Stone aiturn = Retentioner_Character.getCharacter().getAI().getTurn();
-				if(stone.equals(aiturn))
+				if(stone.equals(aiturn) || _isAIVSMode)
 				{
 					_Pcount = 0;
 					_thread = new TimerThread(new NextTurnReciver(), WAIT_MILLS);
@@ -270,6 +280,19 @@ public class Controler implements IReversiInfo
 					AIThinkThread thread = new AIThinkThread(_board, _window, ai);
 					thread.start();
 				}
+				else
+				if(_isAIVSMode)
+				{
+					AI ai0 = _ai1;
+					if(_ai2.getTurn() == _board.getTurn())
+					{
+						ai0 = _ai2;
+					}
+
+					ai0.disableStopThinking();
+					AIThinkThread thread = new AIThinkThread(_board, _window, ai0);
+					thread.start();
+				}
 			}
 		}
 		else
@@ -310,6 +333,9 @@ public class Controler implements IReversiInfo
 
 		Stone stone = _board.randomStone();
 		Retentioner_Character.getCharacter().getAI().setTurn(stone.next());
+
+		_ai1.setTurn(stone);
+		_ai2.setTurn(stone.next());
 
 		ModelToView.showStoneDialog(_window, stone);
 		_board.initialize();

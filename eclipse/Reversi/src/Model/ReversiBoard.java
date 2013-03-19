@@ -410,6 +410,7 @@ public class ReversiBoard implements IReversiInfo, IStoneReceptorModel, Cloneabl
 	}
 
 	/** @param pos 場所
+	 * @param myStone 石
 	 * @return その場所が属する辺が自分の石しかないかどうか
 	 */
 	public boolean isMyPlace(Position pos, Stone myStone)
