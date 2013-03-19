@@ -2,7 +2,7 @@ package Model.Util;
 
 import Model.ITimerReciver;
 
-public class TimerThread extends Thread
+public class TimerThread extends HaltableThread
 {
 	private long _mills;
 	private ITimerReciver _reciver;

@@ -4,10 +4,11 @@ import Model.ITimerReciver;
 import Model.Position;
 import Model.ReversiBoard;
 import Model.AI.AI;
+import Model.Util.HaltableThread;
 import Model.Util.TimerThread;
 import Other.IReversiInfo;
 
-public class AIThinkThread extends Thread implements IReversiInfo, ITimerReciver
+public class AIThinkThread extends HaltableThread implements IReversiInfo, ITimerReciver
 {
 	private ReversiBoard _board;
 	private IStoneReceptorView _view;
@@ -31,7 +32,7 @@ public class AIThinkThread extends Thread implements IReversiInfo, ITimerReciver
 		Controler.onThinkStopped();
 		try
 		{
-			thread.stop();
+			//thread.halt();
 		}
 		catch(Throwable e)
 		{

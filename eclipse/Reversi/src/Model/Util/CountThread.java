@@ -4,7 +4,7 @@ import Controler.Controler;
 import Model.ITimerReciver;
 import Other.IReversiInfo;
 
-public class CountThread extends Thread implements IReversiInfo
+public class CountThread extends HaltableThread implements IReversiInfo
 {
 	private ITimerReciver _reciver;
 
@@ -16,7 +16,7 @@ public class CountThread extends Thread implements IReversiInfo
 	@Override
 	public void run()
 	{
-		while(Controler.getPaintCount() < XSize*YSize)
+		while(Controler.getPaintCount() < XSize*YSize && !_halt)
 		{
 			try
 			{
@@ -27,6 +27,5 @@ public class CountThread extends Thread implements IReversiInfo
 			}
 		}
 		_reciver.onTimerStopped();
-		yield();
 	}
 }

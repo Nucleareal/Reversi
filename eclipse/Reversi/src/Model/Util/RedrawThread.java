@@ -4,7 +4,7 @@ import java.awt.Component;
 
 import Other.IReversiInfo;
 
-public class RedrawThread extends Thread implements IReversiInfo
+public class RedrawThread extends HaltableThread implements IReversiInfo
 {
 	private int _cur;
 	private Component[][] _components;
@@ -18,7 +18,7 @@ public class RedrawThread extends Thread implements IReversiInfo
 	{
 		_cur = 0;
 
-		while(true)
+		while(!_halt)
 		{
 			try
 			{
@@ -30,11 +30,6 @@ public class RedrawThread extends Thread implements IReversiInfo
 			_components[_cur%XSize][_cur/XSize].repaint();
 			_cur = (_cur + 1) % (XSize*YSize);
 		}
-	}
-
-	public void shutdown()
-	{
-		yield();
 	}
 
 	public void setComponents(Component[][] components)

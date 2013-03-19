@@ -273,7 +273,7 @@ public class ButtonArrayableFrame extends JFrame implements IReversiInfo, IStone
 	@Override
 	public void dispose()
 	{
-		_thread.shutdown();
+		_thread.halt();
 		super.dispose();
 	}
 

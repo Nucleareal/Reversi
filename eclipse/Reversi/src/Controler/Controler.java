@@ -15,6 +15,7 @@ import Model.Sound;
 import Model.Stone;
 import Model.AI.AI;
 import Model.AI.AI_Level_0;
+import Model.AI.AI_Level_7;
 import Model.Character.CharacterList;
 import Model.Character.ICharacter;
 import Model.Character.State.CharacterState;
@@ -23,6 +24,7 @@ import Model.Event.Reciver.ButtonClickReciver;
 import Model.Event.Reciver.MovedNextTurnReciver;
 import Model.Event.Reciver.PlayerChangeReciver;
 import Model.Event.Reciver.ReversiEndedReciver;
+import Model.Util.HaltableThread;
 import Model.Util.TimerThread;
 import Other.IReversiInfo;
 import View.ButtonArrayableFrame;
@@ -36,6 +38,7 @@ public class Controler implements IReversiInfo
 	private static volatile int _Pcount;
 	private static boolean _isEnableGame = false;
 	private static int _Ccounter;
+	private static HaltableThread _thread;
 	private static volatile boolean _isAIControling;
 
 	private static boolean _isAIVSMode = false;
@@ -57,8 +60,8 @@ public class Controler implements IReversiInfo
 
 		//ここでAIを指定します
 		_ai1 = new AI_Level_0();
-		_ai2 = new AI_Level_0();
-		_isAIVSMode = false; //AI同士の対戦モード
+		_ai2 = new AI_Level_7();
+		_isAIVSMode = true; //AI同士の対戦モード
 
 		Retentioner_Image.Load();
 		Sound.Load();
@@ -157,7 +160,7 @@ public class Controler implements IReversiInfo
 		{
 			try
 			{
-				_thread.stop();
+				_thread.halt();
 			}
 			catch(Throwable e)
 			{
@@ -204,7 +207,7 @@ public class Controler implements IReversiInfo
 					{
 						try
 						{
-							_thread.stop();
+							_thread.halt();
 						}
 						catch(Throwable e)
 						{
@@ -216,8 +219,6 @@ public class Controler implements IReversiInfo
 			}
 		}
 	}
-
-	private static Thread _thread;
 
 	public static void AILockEnable()
 	{
@@ -260,11 +261,11 @@ public class Controler implements IReversiInfo
 			if(_isAIControling)
 			{
 				_Pcount = 0;
-				if(_thread != null)
+				if(_thread != null && _thread instanceof AIThinkThread)
 				{
 					try
 					{
-						_thread.stop();
+						_thread.halt();
 					}
 					catch(Throwable e)
 					{
@@ -273,7 +274,7 @@ public class Controler implements IReversiInfo
 				}
 				AI ai = Retentioner_Character.getCharacter().getAI();
 				Stone aiturn = ai.getTurn();
-				if(_board.getTurn() == aiturn)
+				if(!_isAIVSMode && _board.getTurn() == aiturn)
 				{
 					ai.disableStopThinking();
 
@@ -288,6 +289,7 @@ public class Controler implements IReversiInfo
 					{
 						ai0 = _ai2;
 					}
+					System.out.println("Thinking : "+ai0);
 
 					ai0.disableStopThinking();
 					AIThinkThread thread = new AIThinkThread(_board, _window, ai0);
@@ -336,6 +338,7 @@ public class Controler implements IReversiInfo
 
 		_ai1.setTurn(stone);
 		_ai2.setTurn(stone.next());
+		System.out.println("AI1 Turn is "+stone);
 
 		ModelToView.showStoneDialog(_window, stone);
 		_board.initialize();

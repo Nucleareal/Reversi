@@ -40,8 +40,6 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 	{
 		Controler.AILockEnable();
 
-		System.out.println("CPU Turn!");
-
 		Node min = new Node(null, Integer.MIN_VALUE, null);
 		Node max = new Node(null, Integer.MAX_VALUE, null);
 		Node now = new Node(null,    0, null);
@@ -59,8 +57,6 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 		{
 			pos = placeRandomly(board, getTurn());
 		}
-
-		System.out.println("CPU Posted Result As "+pos);
 
 		return pos;
 	}
@@ -80,7 +76,6 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 			else
 			if(board.getTurnCount() > LastRead)
 			{
-				System.out.println("LastRead Enabled");
 				isLastDepth = true;
 				depth = LastReadAmount;
 			}
@@ -92,7 +87,6 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 		List<Position> placeableNodes = board.getAllPlaceablePoints();
 		if(placeableNodes.size() == 0 && board.getWinnedColor().equals(getTurn()))
 		{
-			System.out.println("Find Win route");
 			return new Node(now.getPosition(), Integer.MAX_VALUE, now);
 		}
 		List<Node> nodes = new LinkedList<>();
