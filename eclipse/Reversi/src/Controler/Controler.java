@@ -13,9 +13,7 @@ import Model.Retentioner_Image;
 import Model.ReversiBoard;
 import Model.Sound;
 import Model.Stone;
-import Model.AI.AI;
-import Model.AI.AI_Level_0;
-import Model.AI.AI_Level_7;
+import Model.AI.*;
 import Model.Character.CharacterList;
 import Model.Character.ICharacter;
 import Model.Character.State.CharacterState;
@@ -59,7 +57,7 @@ public class Controler implements IReversiInfo
 
 
 		//ここでAIを指定します
-		_ai1 = new AI_Level_0();
+		_ai1 = new AI_Level_1();
 		_ai2 = new AI_Level_7();
 		_isAIVSMode = true; //AI同士の対戦モード
 
@@ -99,6 +97,8 @@ public class Controler implements IReversiInfo
 
 	public static void nextCharacter()
 	{
+		if(_isAIVSMode) return;
+
 		ICharacter chr = CharacterList.get(_Ccounter++);
 
 		_isEnableGame = false;

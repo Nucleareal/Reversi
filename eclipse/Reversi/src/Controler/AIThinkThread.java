@@ -32,7 +32,7 @@ public class AIThinkThread extends HaltableThread implements IReversiInfo, ITime
 		Controler.onThinkStopped();
 		try
 		{
-			//thread.halt();
+			thread.halt();
 		}
 		catch(Throwable e)
 		{
