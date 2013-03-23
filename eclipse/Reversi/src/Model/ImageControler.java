@@ -7,6 +7,7 @@ import Model.Character.State.CharacterState;
 
 public class ImageControler
 {
+	public static ImageIcon[] CharaNull;
 	public static ImageIcon[] CharaKisume;
 	public static ImageIcon[] CharaYamame;
 	public static ImageIcon[] CharaParsee;
@@ -38,6 +39,7 @@ public class ImageControler
 		StoneBlackAble = ImageLoader.get().load("img/BlackAble.png");
 		StoneWhiteAble = ImageLoader.get().load("img/WhiteAble.png");
 
+		charaLoad(0, CharaNull=new ImageIcon[size]);
 		charaLoad(1, CharaKisume=new ImageIcon[size]);
 		charaLoad(2, CharaYamame=new ImageIcon[size]);
 		charaLoad(3, CharaParsee=new ImageIcon[size]);

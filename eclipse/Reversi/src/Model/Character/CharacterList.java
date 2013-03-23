@@ -28,4 +28,10 @@ public class CharacterList
 		}
 		return _list.get(i);
 	}
+
+	public static void changeToAIVS()
+	{
+		_list.clear();
+		_list.add(new Character_00Null());
+	}
 }

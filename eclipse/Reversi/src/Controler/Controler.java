@@ -90,6 +90,11 @@ public class Controler implements IReversiInfo
 
 	private static void initialize()
 	{
+		if(_isAIVSMode)
+		{
+			CharacterList.changeToAIVS();
+		}
+
 		nextCharacter();
 
 		setBoardToViewAll();
@@ -169,15 +174,19 @@ public class Controler implements IReversiInfo
 		ModelToView.setEndToTitle(_window, stoneCounts);
 		Stone stone = _board.getWinnedColor();
 		Stone ai_turn = Retentioner_Character.getCharacter().getAI().getTurn();
+		String msg = "";
 		if(!stone.equals(ai_turn))
 		{
 			Retentioner_Character.changeState(CharacterState.Lose);
+			msg = "Win 1P Side("+_ai1.toString()+")";
 		}
 		else
 		{
 			Retentioner_Character.changeState(CharacterState.Win);
 			_Ccounter--;
+			msg = "Win 2P Side("+_ai2.toString()+")";
 		}
+		System.out.println(msg);
 		_isEnableGame = false;
 	}
 

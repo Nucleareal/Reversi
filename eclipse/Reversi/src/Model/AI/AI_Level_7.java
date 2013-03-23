@@ -144,4 +144,10 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 		}
 		return b;
 	}
+
+	@Override
+	public String toString()
+	{
+		return "AI Level7 © @Nucleareal";
+	}
 }

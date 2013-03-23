@@ -151,4 +151,10 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 		}
 		return b;
 	}
+
+	@Override
+	public String toString()
+	{
+		return "AI Level4 © @Nucleareal";
+	}
 }
