@@ -9,7 +9,7 @@ import Model.ReversiBoard;
 import Model.Stone;
 import Other.IReversiInfo;
 
-public class AI_Level_5 extends AI_Base implements IReversiInfo
+public class AI_Level_8 extends AI_Base implements IReversiInfo
 {
 	private static int _val_table[][] =
 		{
@@ -22,26 +22,15 @@ public class AI_Level_5 extends AI_Base implements IReversiInfo
 			{-20, -40,  -5,  -5,  -5,  -5, -40, -20},
 			{120, -20,  20,   5,   5,  20, -20, 120},
 		};
-	private static int _last_table[][] =
-		{
-			{ 500,-200,  20,   5,   5,  20,-200, 500},
-			{-200,-400,  -5,  -5,  -5,  -5,-400,-200},
-			{  20,  -5,  15,   3,   3,  15,  -5,  20},
-			{   5,  -5,   3,   3,   3,   3,  -5,   5},
-			{   5,  -5,   3,   3,   3,   3,  -5,   5},
-			{  20,  -5,  15,   3,   3,  15,  -5,  20},
-			{-200,-400,  -5,  -5,  -5,  -5,-400,-200},
-			{ 500,-200,  20,   5,   5,  20,-200, 500},
-		};
 
-	private static int DEFAULT_MAX_DEPTH = 4;
+	private static int DEFAULT_MAX_DEPTH = 7;
 
-	public AI_Level_5(Stone stone)
+	public AI_Level_8(Stone stone)
 	{
 		super(stone);
 	}
 
-	public AI_Level_5()
+	public AI_Level_8()
 	{
 		super();
 	}
@@ -90,8 +79,7 @@ public class AI_Level_5 extends AI_Base implements IReversiInfo
 		List<Position> placeableNodes = board.getAllPlaceablePoints();
 		if(placeableNodes.size() == 0 && board.getWinnedColor().equals(getTurn()))
 		{
-			System.out.println("Find Win route");
-			return new Node(now.getPosition(), isMyTurn ? Integer.MAX_VALUE : Integer.MIN_VALUE, now);
+			return new Node(now.getPosition(), Integer.MAX_VALUE, now);
 		}
 		List<Node> nodes = new LinkedList<>();
 		for(Position pos : placeableNodes)
@@ -122,15 +110,11 @@ public class AI_Level_5 extends AI_Base implements IReversiInfo
 
 	private Node evaluation(ReversiBoard board, Position pos, int nowValue, Node parent, boolean isMyTurn, boolean isLastDepth)
 	{
-		int posValue = isLastDepth ? _val_table[pos.getX()][pos.getY()] : _last_table[pos.getX()][pos.getY()];
+		int posValue = _val_table[pos.getX()][pos.getY()];
 		int[] results = board.placeAtPastAsReverse(pos); //board.undo();
 		nowValue += results[2];
 		nowValue -= (results[1] * results[1]); //opened * PlayerCan
-		if(board.isVerifiedCorner(pos))
-			nowValue += Math.abs(posValue);
-		else
-		if(board.isMyPlace(pos, isMyTurn ? getTurn() : getTurn().next()))
-			nowValue += posValue;
+		nowValue += isLastDepth ? posValue*posValue : posValue;
 		//nowValue += isMyTurn ? 0 : (results[0] * results[0]);
 		return new Node(pos, nowValue, parent);
 	}

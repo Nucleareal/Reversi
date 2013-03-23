@@ -26,7 +26,9 @@ public class AIThinkThread extends HaltableThread implements IReversiInfo, ITime
 		TimerThread thread = new TimerThread(this, AI_THINK_MILLS);
 		thread.start();
 
+		Controler.AILockEnable();
 		Position pos = _ai.getNextPosition(_board);
+		Controler.AILockDisable();
 		ModelToView.setClicked(pos, _view);
 
 		Controler.onThinkStopped();

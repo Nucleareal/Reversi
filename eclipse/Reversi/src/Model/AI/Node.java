@@ -30,6 +30,12 @@ public class Node
 		return _parent;
 	}
 
+	@Override
+	public String toString()
+	{
+		return "{"+_pos+" value:"+_value+"}";
+	}
+
 	public boolean isBiggerThan(Node node)
 	{
 		if(node == null)
@@ -39,13 +45,12 @@ public class Node
 		return _value > node.getValue();
 	}
 
-	public String toString()
-	{
-		return "{"+_pos+" value:"+_value+"}";
-	}
-
 	public boolean isEBiggerThan(Node node)
 	{
+		if(node == null)
+		{
+			return true;
+		}
 		return _value >= node.getValue();
 	}
 

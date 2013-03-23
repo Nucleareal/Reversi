@@ -4,7 +4,6 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import Controler.Controler;
 import Model.Position;
 import Model.ReversiBoard;
 import Model.Stone;
@@ -38,20 +37,13 @@ public class AI_Level_7 extends AI_Base implements IReversiInfo
 
 	public Position getNextPosition(ReversiBoard board)
 	{
-		Controler.AILockEnable();
-
-		Node min = new Node(null, Integer.MIN_VALUE, null);
-		Node max = new Node(null, Integer.MAX_VALUE, null);
-		Node now = new Node(null,    0, null);
 		Position pos;
-		Node node = getNextPosition(board, now, min, max, DEFAULT_MAX_DEPTH, false);
+		Node node = getNextPosition(board, __now, __min, __max, DEFAULT_MAX_DEPTH, false);
 
 		while(node.getParent() != null && node.getParent().getParent() != null)
 			node = node.getParent();
 
 		pos = node.getPosition();
-
-		Controler.AILockDisable();
 
 		if(pos == null)
 		{

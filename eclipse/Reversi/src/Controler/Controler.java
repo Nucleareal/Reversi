@@ -57,8 +57,8 @@ public class Controler implements IReversiInfo
 
 
 		//ここでAIを指定します
-		_ai1 = new AI_Level_1();
-		_ai2 = new AI_Level_7();
+		_ai1 = new AI_Level_8();
+		_ai2 = new AI_Level_1();
 		_isAIVSMode = true; //AI同士の対戦モード
 
 		Retentioner_Image.Load();
@@ -97,8 +97,6 @@ public class Controler implements IReversiInfo
 
 	public static void nextCharacter()
 	{
-		if(_isAIVSMode) return;
-
 		ICharacter chr = CharacterList.get(_Ccounter++);
 
 		_isEnableGame = false;

@@ -2,7 +2,6 @@ package Model.AI;
 
 import java.util.PriorityQueue;
 
-import Controler.Controler;
 import Model.Position;
 import Model.ReversiBoard;
 import Model.Stone;
@@ -36,12 +35,8 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 
 	public Position getNextPosition(ReversiBoard board)
 	{
-		Controler.AILockEnable();
-		Node min = new Node(null, Integer.MIN_VALUE, null);
-		Node max = new Node(null, Integer.MAX_VALUE, null);
-		Node now = new Node(null,    0, null);
 		Position pos;
-		Node node = getNextPosition(board, DEFAULT_MAX_DEPTH, false, min, max, now, getTurn());
+		Node node = getNextPosition(board, DEFAULT_MAX_DEPTH, false, __min, __max, __now, getTurn());
 		while(node.getParent() != null && node.getParent().getParent() != null)
 			node = node.getParent();
 
@@ -51,16 +46,6 @@ public class AI_Level_4 extends AI_Base implements IReversiInfo, AI
 		{
 			pos = placeRandomly(board, getTurn());
 		}
-
-		/*try
-		{
-			Thread.sleep(1000+(_rand.nextInt(1001) - 500));
-		}
-		catch(Exception e)
-		{
-		}*/
-
-		Controler.AILockDisable();
 
 		return pos;
 	}

@@ -275,6 +275,7 @@ public class ReversiBoard implements IReversiInfo, IStoneReceptorModel, Cloneabl
 		return result;
 	}
 
+	@Deprecated
 	public void undo()
 	{
 		if(_undoList.isEmpty())
